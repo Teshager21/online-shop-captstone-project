@@ -9,9 +9,10 @@
   --helvetica-light: Helvetica-Neue-Light, cursive;
   --helvetica-medium: Helvetica-Neue-Medium, cursive;
   --helvetica-bold: Helvetica-Neue-Bold, cursive;
-}
+};
 
-/* ========typography======= */
+/* ==========Typography========================= */
+
 @font-face {
   font-family: Helvetica-Neue-Light;
   src: url(../Assets/fonts/Helvetica\ Neue\ Light.ttf);
@@ -37,18 +38,32 @@
   src: url(../Assets/fonts/Gotham\ Rounded\ Bold.otf);
 }
 
-/* ====x===typography===X==== */
-
 /* -------------X------------ Global---------------X-------------- */
 
-body {
-  font-family: var(--helvetica-light);
+body{
+  font-family:var(--helvetica-light);
 }
 
-.bold {
-  font-family: var(--gotham-bold);
+nav {
+  background-color:var(--color-dark);
+}
+nav ul {
+  list-style: none;
+  display:flex;
+  max-width: 80%;
+  margin: 0 auto;
+  padding:1em 0;
+/*   background-color: coral; */
+}
+nav ul li{
+  padding-right:2%;
 }
 
-.medium {
-  font-family: var(--helvetica-medium);
+.active {
+  color:var(--color-primary);
+}
+
+.current-user {
+/* background-color: red; */
+justify-self: flex-end;
 }
