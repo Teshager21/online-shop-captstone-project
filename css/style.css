@@ -4,6 +4,7 @@
   --color-primary: #d35266;
   --secondary-color: #888;
   --color-dark: #383838;
+  --color-light: #eee;
   --gotham-light: Gotham-Rounded-Light, cursive;
   --gotham-bold: Gotham-Bold, cursive;
   --helvetica-light: Helvetica-Neue-Light, cursive;
@@ -50,10 +51,12 @@ body {
   justify-content: center;
 }
 
-nav {
+nav,
+nav a {
   background-color: var(--color-dark);
   color: var(--secondary-color);
   width: 100%;
+  text-decoration: none;
 }
 
 .nav-container {
@@ -74,10 +77,21 @@ nav ul li {
   padding-right: 4vw;
 }
 
+.pr-1 {
+  padding-right: 1em;
+}
+
 .active {
   color: var(--color-primary);
 }
 
 .current-user {
-  padding-right: 2rem;
+  padding-right: 2em;
+}
+
+.ad {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  padding: 0.3em 1em;
+  border-radius: 0.15em;
 }
