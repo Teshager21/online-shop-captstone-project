@@ -44,22 +44,34 @@ body {
   font-family: var(--helvetica-light);
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 nav {
   background-color: var(--color-dark);
+  color: var(--secondary-color);
+  width: 100%;
+}
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 0;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 1em 0;
-
-  /*   background-color: coral; */
 }
 
 nav ul li {
-  padding-right: 2%;
+  padding-right: 4vw;
 }
 
 .active {
@@ -67,6 +79,5 @@ nav ul li {
 }
 
 .current-user {
-  /* background-color: red; */
-  justify-self: flex-end;
+  padding-right: 2rem;
 }
