@@ -60,7 +60,7 @@ nav a {
 }
 
 .nav-container {
-  width: 80%;
+  width: 86%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -87,11 +87,27 @@ nav ul li {
 
 .current-user {
   padding-right: 2em;
+  display: flex;
+  align-items: center;
 }
 
 .ad {
   background-color: var(--color-primary);
   color: var(--color-light);
   padding: 0.3em 1em;
-  border-radius: 0.15em;
+  border-radius: 0.1em;
+}
+
+.user__picture {
+  width: 2em;
+  height: 2em;
+  margin-bottom: -1em;
+  margin-top: -1em;
+  padding: 0 0.5em;
+}
+
+.user__picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
