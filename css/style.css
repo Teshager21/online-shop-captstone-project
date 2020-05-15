@@ -1,12 +1,53 @@
-html {
-  background-color: var(--color-primary);
-}
+
 
 /* ------------------------- Global----------------------------- */
 :root {
   --color-primary: #d35266;
   --secondary-color: #888;
   --color-dark: #383838;
+  --gotham-light:Gotham-Rounded-Light,cursive;
+  --gotham-bold: Gotham-Bold,cursive;
+  --helvetica-light:Helvetica-Neue-Light,cursive;
+  --helvetica-medium: Helvetica-Neue-Medium,cursive;
+  --helvetica-bold:Helvetica-Neue-Bold,cursive;
 }
+ 
+  /* ========typography======= */
+  @font-face {
+  font-family:Helvetica-Neue-Light;
+  src:url(../Assets/fonts/Helvetica\ Neue\ Light.ttf)
+  }
+  @font-face {
+    font-family: Helvetica-Neue-Medium,cursive;
+    src:url(../Assets/fonts/HelveticaNeue\ Medium.ttf);
+  }
+  @font-face {
+    font-family: Helvetica-Neue-Bold;
+    src:url(../Assets/fonts/HelveticaNeue-Bold.ttf);
+  }
+
+  @font-face {
+    font-family:Gotham-Rounded-Light;
+    src: url(../Assets/fonts/Gotham\ Rounded\ Light.otf);
+  }
+
+  @font-face {
+    font-family:Gotham-Bold;
+    src: url(../Assets/fonts/Gotham\ Rounded\ Bold.otf);
+  }
+ 
+   /* ====x===typography===X==== */
 
 /* -------------X------------ Global---------------X-------------- */
+
+body{
+  font-family:var(--helvetica-light);
+}
+
+.bold {
+  font-family: var(--gotham-bold)
+}
+
+.medium{
+font-family: var(--helvetica-medium);
+}
