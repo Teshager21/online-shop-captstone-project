@@ -9,7 +9,7 @@
   --helvetica-light: Helvetica-Neue-Light, cursive;
   --helvetica-medium: Helvetica-Neue-Medium, cursive;
   --helvetica-bold: Helvetica-Neue-Bold, cursive;
-};
+}
 
 /* ==========Typography========================= */
 
@@ -40,30 +40,33 @@
 
 /* -------------X------------ Global---------------X-------------- */
 
-body{
-  font-family:var(--helvetica-light);
+body {
+  font-family: var(--helvetica-light);
 }
 
 nav {
-  background-color:var(--color-dark);
+  background-color: var(--color-dark);
 }
+
 nav ul {
   list-style: none;
-  display:flex;
+  display: flex;
   max-width: 80%;
   margin: 0 auto;
-  padding:1em 0;
-/*   background-color: coral; */
+  padding: 1em 0;
+
+  /*   background-color: coral; */
 }
-nav ul li{
-  padding-right:2%;
+
+nav ul li {
+  padding-right: 2%;
 }
 
 .active {
-  color:var(--color-primary);
+  color: var(--color-primary);
 }
 
 .current-user {
-/* background-color: red; */
-justify-self: flex-end;
+  /* background-color: red; */
+  justify-self: flex-end;
 }
