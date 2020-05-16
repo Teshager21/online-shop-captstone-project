@@ -44,14 +44,30 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.text-light {
+  color: var(--color-light);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.font-sm {
+  font-size: 0.5rem;
+}
+
 body {
   font-family: var(--helvetica-light);
+  box-sizing: border-box;
 }
 
 .container {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  box-sizing: inherit;
 }
 
 nav,
@@ -60,7 +76,8 @@ nav a {
   color: var(--secondary-color);
   width: 100%;
   text-decoration: none;
-  font-size: .75rem;
+  font-size: 0.75rem;
+  box-sizing: inherit;
 }
 
 .nav-container {
@@ -82,14 +99,14 @@ nav a {
   padding-right: 2.5vw;
 }
 
-.logo span{
-  font-family:var(--helvetica-bold);
+.logo span {
+  font-family: var(--helvetica-bold);
   display: flex;
   align-items: center;
 }
 
 .fa-phoenix-squadron {
-  color:var(--color-primary);
+  color: var(--color-primary);
   font-size: 1.1rem;
 }
 
@@ -129,16 +146,17 @@ nav a {
 }
 
 header {
-  height: 30vh;
-  background-color:var(--color-primary);
-  display:flex;
+  min-height: 10em;
+  background-color: var(--color-primary);
+  display: flex;
   flex-direction: column;
-  justify-content:space-evenly;
-  align-items:center;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: inherit;
 }
 
 .header__brand {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -146,27 +164,48 @@ header {
 
 /* ======search form========= */
 
-.search-block{
+.search-block {
   display: flex;
-}
-.input-group {
-  display: flex;
-  min-height: 2.5vw;
-}
-.input-area {
-  margin: 0;
-  border:1px solid var(--color-primary);
-  border-right:none;
-  flex:2; 
 }
 
-.btn-search{
-  margin:0;
-  margin-left:0.5em;
-  border:1px solid var(--color-primary);
+.input-group {
+  display: flex;
+  min-height: 1.8em;
+  padding: 0;
 }
-.btn-dark{
-  color:var(--color-light);
+
+.input {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  box-sizing: inherit;
+}
+
+.input-area {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: 1px solid var(--color-primary);
+  border-right: none;
+  flex: 2;
+}
+
+.fa-caret-down {
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
+.btn-search {
+  margin: 0;
+  margin-left: 0.5em;
+  border: 1px solid var(--color-primary);
+}
+
+.btn-dark {
+  color: var(--color-light);
   background-color: var(--color-dark);
-  
 }
