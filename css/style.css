@@ -323,7 +323,6 @@ main {
 }
 
 .row {
-  display: flex;
   box-sizing: inherit;
 }
 
@@ -381,7 +380,7 @@ main {
   background-color: #d3d3d3;
 }
 
-.category div {
+.row__category div {
   width: 90%;
   margin: 1rem auto;
 }
