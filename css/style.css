@@ -76,7 +76,6 @@ body {
 
 .container {
   width: 100%;
-  display: flex;
   justify-content: center;
   flex-direction: column;
   box-sizing: inherit;
@@ -103,7 +102,6 @@ nav a {
 .nav-container {
   width: 88%;
   margin: 0 auto;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.75em 0;
@@ -111,7 +109,6 @@ nav a {
 
 .nav-items {
   list-style: none;
-  display: flex;
   align-items: center;
 }
 
@@ -122,7 +119,6 @@ nav a {
 
 .logo span {
   font-family: var(--helvetica-bold);
-  display: flex;
   align-items: center;
 }
 
@@ -146,7 +142,6 @@ nav a {
 
 .current-user {
   padding-right: 1em;
-  display: flex;
   align-items: center;
 }
 
@@ -177,7 +172,6 @@ nav a {
 header {
   min-height: 10em;
   background-color: var(--color-primary);
-  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -186,7 +180,6 @@ header {
 }
 
 .header__brand {
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -194,12 +187,7 @@ header {
 
 /* ======search form========= */
 
-.search-block {
-  display: flex;
-}
-
 .input-group {
-  display: flex;
   min-height: 1.8em;
   padding: 0;
 }
@@ -208,7 +196,6 @@ header {
   position: relative;
   margin: 0;
   padding: 0;
-  display: flex;
   align-items: center;
   box-sizing: inherit;
 }
@@ -241,16 +228,13 @@ header {
 }
 
 .hot-ads {
-  display: flex;
-  flex-direction: column;
   width: 80%;
   align-self: center;
-
-  /* background-color: coral; */
+  background-color: coral;
 }
 
 .hot-ads__content {
-  display: flex;
+  width: 90%;
 }
 
 .hot-ads__img {
@@ -264,11 +248,8 @@ header {
 }
 
 .ad {
-  display: flex;
   height: 100%;
-
-  /* background-color:yellow; */
-  width: 80%;
+  background-color: yellow;
 }
 
 .hot-ads__details {
@@ -276,7 +257,6 @@ header {
 }
 
 .slide {
-  display: flex;
   color: var(--color-primary);
   align-items: center;
   justify-content: center;
@@ -289,7 +269,6 @@ header {
 }
 
 .btn-group {
-  display: flex;
   margin: 0;
 }
 
