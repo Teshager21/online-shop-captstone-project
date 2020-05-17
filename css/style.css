@@ -144,12 +144,6 @@ nav a {
   align-items: center;
 }
 
-.fa-phoenix-squadron {
-  color: var(--color-primary);
-
-  /*   font-size: 1.1rem; */
-}
-
 .p-1 {
   padding: 1rem;
 }
@@ -222,7 +216,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   box-sizing: inherit;
-  margin-top: 2.2em;
+  margin-top: 2rem;
 }
 
 .header__title {
@@ -434,7 +428,7 @@ main {
 .footer-col-3 {
   flex: 3;
   padding: 1rem;
-  margin-left: 4rem;
+  margin-left: 6rem;
   text-align: justify;
 }
 
