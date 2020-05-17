@@ -145,13 +145,16 @@ nav a {
   align-items: center;
 }
 
-.post {
-  background-color: var(--color-primary);
-  color: var(--color-light);
+.btn{
   padding: 0.3em 0.5em;
-  border-radius: 0.1em;
+  border-radius: 0.2em;
 }
-
+.btn-primary {
+  background-color: var(--color-primary); 
+  border: var(--color-primary);
+  color: var(--color-light);
+  
+}
 .user__picture {
   width: 2em;
   height: 2em;
@@ -228,9 +231,8 @@ header {
 }
 
 .hot-ads {
-  width: 80%;
+  width: 72%;
   align-self: center;
-  background-color: coral;
 }
 
 .hot-ads__content {
@@ -238,18 +240,18 @@ header {
 }
 
 .hot-ads__img {
-  flex: 1 1 33.33%;
   max-height: 10em;
+  flex:1;
 }
 
 .hot-ads__body {
-  flex: 1 2 69.67%;
   margin: 1em;
+  min-width: 0;
+  flex:2;
 }
 
 .ad {
   height: 100%;
-  background-color: yellow;
 }
 
 .hot-ads__details {
@@ -265,11 +267,23 @@ header {
   border: 1px var(--color-light) solid;
   border-radius: 50%;
   align-self: center;
-  margin: 0 0.5em;
+  margin: 0 1em;
 }
 
 .btn-group {
   margin: 0;
+}
+.btn-group .btn{
+  border: var(--color-primary) 1px solid;
+}
+.btn-group .btn:first-child{
+  border-right: var(--color-dark) 1px solid;
+  border-top-right-radius: 0;
+  border-bottom-right-radius:0;
+}
+.btn-group .btn:last-child{
+  border-top-left-radius:0;
+  border-bottom-left-radius: 0;
 }
 
 .hot-ads__header {
