@@ -145,16 +145,17 @@ nav a {
   align-items: center;
 }
 
-.btn{
+.btn {
   padding: 0.3em 0.5em;
   border-radius: 0.2em;
 }
+
 .btn-primary {
-  background-color: var(--color-primary); 
+  background-color: var(--color-primary);
   border: var(--color-primary);
   color: var(--color-light);
-  
 }
+
 .user__picture {
   width: 2em;
   height: 2em;
@@ -241,13 +242,13 @@ header {
 
 .hot-ads__img {
   max-height: 10em;
-  flex:1;
+  flex: 1;
 }
 
 .hot-ads__body {
   margin: 1em;
   min-width: 0;
-  flex:2;
+  flex: 2;
 }
 
 .ad {
@@ -273,16 +274,19 @@ header {
 .btn-group {
   margin: 0;
 }
-.btn-group .btn{
+
+.btn-group .btn {
   border: var(--color-primary) 1px solid;
 }
-.btn-group .btn:first-child{
+
+.btn-group .btn:first-child {
   border-right: var(--color-dark) 1px solid;
   border-top-right-radius: 0;
-  border-bottom-right-radius:0;
+  border-bottom-right-radius: 0;
 }
-.btn-group .btn:last-child{
-  border-top-left-radius:0;
+
+.btn-group .btn:last-child {
+  border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
 
