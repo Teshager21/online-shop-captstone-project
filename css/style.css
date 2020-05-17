@@ -243,8 +243,10 @@ header {
 .hot-ads {
   display: flex;
   flex-direction: column;
-  width: 72%;
+  width: 80%;
   align-self: center;
+
+  /* background-color: coral; */
 }
 
 .hot-ads__content {
@@ -264,6 +266,13 @@ header {
 .ad {
   display: flex;
   height: 100%;
+
+  /* background-color:yellow; */
+  width: 80%;
+}
+
+.hot-ads__details {
+  word-wrap: break-word;
 }
 
 .slide {
@@ -271,7 +280,8 @@ header {
   color: var(--color-primary);
   align-items: center;
   justify-content: center;
-  padding: 0.5em;
+  height: 30px;
+  width: 30px;
   border: 1px var(--color-light) solid;
   border-radius: 50%;
   align-self: center;
@@ -280,6 +290,7 @@ header {
 
 .btn-group {
   display: flex;
+  margin: 0;
 }
 
 .hot-ads__header {
