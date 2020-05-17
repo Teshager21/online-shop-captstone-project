@@ -57,6 +57,10 @@
   color: var(--color-secondary);
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .font-sm {
   font-size: 0.75rem;
 }
@@ -76,8 +80,6 @@
 body {
   font-family: var(--helvetica-light);
   box-sizing: border-box;
-
-  /*  background-color: #fff; */
 }
 
 .container {
@@ -309,29 +311,31 @@ main {
 
 .row {
   display: flex;
+  box-sizing: inherit;
 }
 
 .card {
+  box-sizing: inherit;
   display: flex;
-
-  /*  background-color: gold; */
   flex-direction: column;
   max-height: 20rem;
   border: 1px var(--color-secondary) solid;
   min-width: 0;
-  padding: 2%;
+  margin: 1%;
 }
 
 .card__info {
   flex: 1;
   display: flex;
+  padding: 3%;
+  background-color: #f8f9fd;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 .card__img {
   flex: 1;
-  min-height: 60%;
+  min-height: 50%;
   min-width: 3em;
 }
 
@@ -346,5 +350,8 @@ main {
 }
 
 .card__title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+
+  /* font-family: var(--helvetica-bold); */
+  color: var(--color-secondary);
 }
