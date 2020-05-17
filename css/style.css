@@ -64,6 +64,10 @@
   font-size: 0.75rem;
 }
 
+.font-n {
+  font-size: 1rem;
+}
+
 .d-flex {
   display: flex;
 }
@@ -114,7 +118,6 @@ nav,
 nav a {
   background-color: var(--color-dark);
   width: 100%;
-  font-size: 0.75rem;
   box-sizing: inherit;
 }
 
@@ -143,7 +146,8 @@ nav a {
 
 .fa-phoenix-squadron {
   color: var(--color-primary);
-  font-size: 1.1rem;
+
+  /*   font-size: 1.1rem; */
 }
 
 .p-1 {
@@ -239,7 +243,6 @@ header {
   position: relative;
   align-items: center;
   box-sizing: inherit;
-  font-size: 0.75rem;
 }
 
 .input-area {
@@ -431,6 +434,12 @@ main {
 .footer-col-3 {
   flex: 3;
   padding: 1rem;
+  margin-left: 4rem;
+  text-align: justify;
+}
+
+.about-company .logo {
+  align-self: center;
 }
 
 .footer-col-2 {
@@ -440,6 +449,7 @@ main {
 
 .copy-right {
   height: 2rem;
-  justify-content: center;
+
+  /*  justify-content: center; */
   align-items: flex-start;
 }
