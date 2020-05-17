@@ -2,7 +2,7 @@
 /* ------------------------- Global----------------------------- */
 :root {
   --color-primary: #d35266;
-  --secondary-color: #888;
+  --color-secondary: #888;
   --color-dark: #383838;
   --color-light: #eee;
   --gotham-light: Gotham-Rounded-Light, cursive;
@@ -53,6 +53,10 @@
   color: var(--color-primary);
 }
 
+.text-secondary {
+  color: var(--color-secondary);
+}
+
 .font-sm {
   font-size: 0.75rem;
 }
@@ -72,6 +76,8 @@
 body {
   font-family: var(--helvetica-light);
   box-sizing: border-box;
+
+  /*  background-color: #fff; */
 }
 
 .container {
@@ -92,7 +98,7 @@ nav {
 nav,
 nav a {
   background-color: var(--color-dark);
-  color: var(--secondary-color);
+  color: var(--color-secondary);
   width: 100%;
   text-decoration: none;
   font-size: 0.75rem;
@@ -293,4 +299,52 @@ header {
 
 .hot-ads__header {
   font-family: var(--helvetica-bold);
+}
+
+/* -------Main---------- */
+
+main {
+  background-color: /* var(--color-secondary) */ #f6f6f6;
+}
+
+.row {
+  display: flex;
+}
+
+.card {
+  display: flex;
+
+  /*  background-color: gold; */
+  flex-direction: column;
+  max-height: 20rem;
+  border: 1px var(--color-secondary) solid;
+  min-width: 0;
+  padding: 2%;
+}
+
+.card__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card__img {
+  flex: 1;
+  min-height: 60%;
+  min-width: 3em;
+}
+
+.card__detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__cta {
+  border: 1px var(--color-secondary) solid;
+  padding: 0.4em;
+}
+
+.card__title {
+  font-size: 1.2rem;
 }
