@@ -76,6 +76,11 @@
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
 body {
   font-family: var(--helvetica-light);
   box-sizing: border-box;
@@ -99,9 +104,7 @@ nav {
 nav,
 nav a {
   background-color: var(--color-dark);
-  color: var(--color-secondary);
   width: 100%;
-  text-decoration: none;
   font-size: 0.75rem;
   box-sizing: inherit;
 }
@@ -285,8 +288,6 @@ header {
   bottom: 0;
   right: 0;
   background-color: var(--color-dark);
-
-  /* padding: 0.3em 0.8em; */
 }
 
 .slider-carets * {
@@ -319,7 +320,7 @@ header {
 /* -------Main---------- */
 
 main {
-  background-color: /* var(--color-secondary) */ #f3f3f3;
+  background-color: #f3f3f3;
 }
 
 .row {
