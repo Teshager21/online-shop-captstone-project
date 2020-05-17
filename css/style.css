@@ -363,7 +363,25 @@ main {
   color: #c0c0c0;
 }
 
+.card__price {
+  display: flex;
+  align-items: center;
+}
+
 .card__title {
   font-size: 1.1rem;
   color: var(--color-secondary);
+}
+
+.underlined::after {
+  content: " ";
+  height: 1.5px;
+  width: 100%;
+  margin: 1rem auto;
+  background-color: #d3d3d3;
+}
+
+.category div {
+  width: 90%;
+  margin: 1rem auto;
 }
