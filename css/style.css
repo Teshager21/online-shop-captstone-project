@@ -452,6 +452,10 @@ main {
   border: var(--color-primary);
 }
 
+.footer-top {
+  flex-direction: column;
+}
+
 /* ---------Search Page--------- */
 
 .checkbox {
@@ -507,6 +511,7 @@ aside {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
   grid-auto-rows: 20rem;
 }
 
@@ -517,5 +522,9 @@ aside {
 @media (min-width: 768px) {
   .visible {
     display: flex;
+  }
+
+  .footer-top {
+    flex-direction: row;
   }
 }
