@@ -97,7 +97,6 @@ body {
 .container {
   width: 100%;
   justify-content: center;
-  box-sizing: inherit;
   position: relative;
 }
 
@@ -105,6 +104,7 @@ nav {
   position: fixed;
   top: 0;
   right: 0;
+  height: 2rem;
   z-index: 9999;
 }
 
@@ -112,7 +112,6 @@ nav,
 nav a {
   background-color: var(--color-dark);
   width: 100%;
-  box-sizing: inherit;
 }
 
 .nav-container {
@@ -120,6 +119,7 @@ nav a {
   margin: 0 auto;
   align-items: center;
   padding: 0.75em 0;
+  white-space: nowrap;
 }
 
 .nav-items {
@@ -129,7 +129,6 @@ nav a {
 
 .nav-items li {
   padding-right: 2.5vw;
-  white-space: nowrap;
 }
 
 .logo span {
@@ -171,9 +170,9 @@ nav a {
 }
 
 .btn {
-  box-sizing: border-box;
   padding: 0.3em 0.5em;
   border-radius: 0.2em;
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -189,11 +188,10 @@ nav a {
 }
 
 .user__picture {
-  width: 2em;
-  height: 2em;
-  margin-bottom: -1em;
-  margin-top: -1em;
-  padding: 0 0.5em;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: -1rem;
+  margin-top: -1rem;
 }
 
 .img-fluid {
@@ -209,7 +207,6 @@ header {
   min-height: 10em;
   background-color: var(--color-primary);
   align-items: center;
-  box-sizing: inherit;
   margin-top: 2rem;
 }
 
@@ -232,7 +229,6 @@ header {
 .input {
   position: relative;
   align-items: center;
-  box-sizing: inherit;
 }
 
 .input-area {
@@ -250,7 +246,6 @@ header {
 }
 
 .btn-search {
-  box-sizing: border-box;
   margin-left: 0.5em;
   padding: 0 3em;
   min-height: 1.8rem;
@@ -307,6 +302,7 @@ header {
   bottom: 0;
   right: 0;
   background-color: var(--color-dark);
+  flex-wrap: nowrap;
 }
 
 .slider-carets * {
@@ -342,12 +338,7 @@ main {
   background-color: #f3f3f3;
 }
 
-.row {
-  box-sizing: inherit;
-}
-
 .card {
-  box-sizing: inherit;
   display: flex;
   flex-direction: column;
   max-height: 20rem;
