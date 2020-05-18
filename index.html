@@ -10,9 +10,9 @@
 </head>
 
 <body>
-  <div class="container d-flex">
+  <div class="container d-flex flex-column">
     <nav>
-      <div class="nav-container d-flex font-sm text-uppercase">
+      <div class="nav-container d-flex font-sm text-uppercase justify-between">
         <ul class="nav-items d-flex">
           <li><a href="#" class="logo d-flex">
               <i class="fab fa-phoenix-squadron font-n text-primary"> </i>
@@ -26,7 +26,7 @@
           <li><a href="#" class="btn btn-primary">Post and ad</a></li>
 
         </ul>
-        <div class="current-user d-flex">
+        <div class="current-user d-flex pr-1">
           <div class="inbox">
             <a href="#"> <i class="fas fa-envelope "></i></a>
             <div class="inbox-num"></div>
@@ -45,8 +45,8 @@
       </div>
 
     </nav>
-    <header class="d-flex">
-      <div class="header__brand text-light d-flex">
+    <header class="d-flex flex-column justify-evenly">
+      <div class="header__brand text-light d-flex flex-column">
         <h1 class="header__title text-uppercase font-xl">
           pheonix
         </h1>
@@ -55,14 +55,14 @@
       <form class="search-block d-flex ">
         <div class="input-group d-flex font-sm text-secondary">
           <div class="input d-flex font-sm">
-            <input class="input-area" placeholder="All Departements" >
+            <input class="input-area col-2" placeholder="All Departements" >
             <i class="fas fa-caret-down"></i>
           </div>
           <div class="input d-flex">
-            <input class="input-area" placeholder="What do yout search for?">
+            <input class="input-area col-2" placeholder="What do yout search for?">
           </div>
           <div class="input d-flex">
-            <input class="input-area" placeholder="Where are you at ?">
+            <input class="input-area col-2" placeholder="Where are you at ?">
           </div>
           <div class="d-flex">
             <button class="btn btn-dark btn-search font-sm">Search</button></div>
@@ -85,7 +85,7 @@
                 <span class="text-primary"><i class="fas fa-angle-right"></i></span>
               </div>
             </div>
-           <div class="hot-ads__body d-flex flex-column justify-between">
+           <div class="hot-ads__body d-flex flex-column justify-between col-2">
               <h2 class="hot-ads__header text-primary">  Lorem ipsum dolor sit </h2>
               <p class="hot-ads__details font-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione tempora animi ut ipsam nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias recusandae? Ea?
@@ -314,7 +314,7 @@
 
     <footer>
       <div class="d-flex text-secondary">
-        <div class="about-company footer-col-3 d-flex flex-column">
+        <div class="about-company footer-col-3 d-flex flex-column p-1">
           <a href="#" class="logo d-flex p-1">
             <i class="fab fa-phoenix-squadron font-xl"> </i>
           <span class="text-uppercase d-flex"> &nbsp; pheonix</span></a>
@@ -322,7 +322,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.Saepe incidunt, officia tenetur sunt nesciunt eum voluptatem, quibusdam non placeat praesentium ex laboriosam recusandae, explicabo odit.
           </p>
         </div>
-        <div class="footer-col-2">
+        <div class="col-2 p-1">
             <div class="col-title text-primary text-bold border-bottom pl-0">Categories</div>
              <div class="d-flex">
                <ul class="font-sm p-1 pl-0 p-y">
@@ -346,7 +346,7 @@
              </div>
 
         </div>
-        <div class="footer-col">
+        <div class="col-1 p-1">
             <div class="col-title text-primary text-bold border-bottom pl-0">Navigation</div>
              <ul class="font-sm p-1 pl-0 p-y">
                <li class="list-items"><a href="#">Home</a></li>
@@ -357,7 +357,7 @@
                <li class="list-items"><a href="#">Help</a></li>
              </ul>
         </div>
-        <div class="footer-col d-flex font-sm justify-evenly">
+        <div class="col-1 d-flex font-sm justify-evenly p-1">
             <div class="d-flex flex-column justify-evenly">
               <span class="text-uppercase text-primary text-bold">City</span>
               <span class="text-uppercase text-primary text-bold mr-1">Language</span>

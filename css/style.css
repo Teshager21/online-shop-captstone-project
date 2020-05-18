@@ -72,11 +72,6 @@
   display: flex;
 }
 
-/*
-.d-inline-block {
-  display: inline-block;
-}
- */
 .flex-column {
   flex-direction: column;
 }
@@ -102,7 +97,6 @@ body {
 .container {
   width: 100%;
   justify-content: center;
-  flex-direction: column;
   box-sizing: inherit;
   position: relative;
 }
@@ -125,7 +119,6 @@ nav a {
   width: 88%;
   margin: 0 auto;
   align-items: center;
-  justify-content: space-between;
   padding: 0.75em 0;
 }
 
@@ -174,7 +167,6 @@ nav a {
 }
 
 .current-user {
-  padding-right: 1em;
   align-items: center;
 }
 
@@ -192,8 +184,8 @@ nav a {
 
 .btn-outline {
   background-color: #fff;
-  border: #d3d3d3 1px solid;
-  color: var(--color-dark);
+  border: #e3e3e3 1px solid;
+  color: var(--color-secondary);
 }
 
 .user__picture {
@@ -216,8 +208,6 @@ nav a {
 header {
   min-height: 10em;
   background-color: var(--color-primary);
-  flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   box-sizing: inherit;
   margin-top: 2rem;
@@ -233,7 +223,6 @@ header {
 }
 
 .header__brand {
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -250,7 +239,6 @@ header {
   height: 100%;
   border: 1px solid var(--color-primary);
   border-right: none;
-  flex: 2;
   padding-left: 1.5em;
   outline: none;
 }
@@ -292,7 +280,6 @@ header {
 .hot-ads__body {
   margin: 1em;
   min-width: 0;
-  flex: 2;
 }
 
 .ad {
@@ -427,14 +414,12 @@ main {
 
 /* -------Footer----------------- */
 
-.footer-col {
+.col-1 {
   flex: 1;
-  padding: 1rem;
 }
 
 .footer-col-3 {
   flex: 3;
-  padding: 1rem;
   margin-left: 6rem;
   text-align: justify;
 }
@@ -443,9 +428,8 @@ main {
   align-self: center;
 }
 
-.footer-col-2 {
+.col-2 {
   flex: 2;
-  padding: 1rem;
 }
 
 .copy-right {
