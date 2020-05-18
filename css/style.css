@@ -456,6 +456,10 @@ main {
   flex-direction: column;
 }
 
+/* .copy-right__paragraph {
+
+} */
+
 /* ---------Search Page--------- */
 
 .checkbox {
@@ -519,12 +523,30 @@ aside {
   display: none;
 }
 
-@media (min-width: 768px) {
+.mobile-hide {
+  display: flex;
+}
+
+@media (min-width: 769px) {
   .visible {
     display: flex;
   }
 
   .footer-top {
     flex-direction: row;
+  }
+}
+
+@media (max-width: 576px) {
+  .mobile-hide {
+    display: none;
+  }
+
+  .copy-right {
+    flex-direction: column;
+  }
+
+  .hot-ads {
+    display: none;
   }
 }
