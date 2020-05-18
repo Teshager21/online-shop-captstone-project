@@ -121,17 +121,11 @@ nav a {
 .nav-container {
   width: 88%;
   margin: 0 auto;
-  align-items: center;
   padding: 0.75em 0;
   white-space: nowrap;
 }
 
 .align-center {
-  align-items: center;
-}
-
-.nav-items {
-  /*  list-style: none; */
   align-items: center;
 }
 
@@ -141,7 +135,6 @@ nav a {
 
 .logo span {
   font-family: var(--helvetica-bold);
-  align-items: center;
 }
 
 .p-1 {
@@ -174,7 +167,6 @@ nav a {
 }
 
 .current-user {
-  align-items: center;
   min-width: 8rem;
 }
 
@@ -215,7 +207,6 @@ nav a {
 header {
   min-height: 10em;
   background-color: var(--color-primary);
-  align-items: center;
   margin-top: 2rem;
 }
 
@@ -229,7 +220,6 @@ header {
 }
 
 .header__brand {
-  align-items: center;
   justify-content: center;
 }
 
@@ -237,7 +227,6 @@ header {
 
 .input {
   position: relative;
-  align-items: center;
 }
 
 .input-area {
@@ -257,7 +246,6 @@ header {
 .btn-search {
   margin-left: 0.5em;
   padding: 0 3em;
-  align-items: center;
 }
 
 .btn-dark {
@@ -297,7 +285,6 @@ header {
 
 .slide {
   color: var(--color-primary);
-  align-items: center;
   justify-content: center;
   height: 2rem;
   width: 2rem;
@@ -397,7 +384,7 @@ main {
   height: 1.5px;
   width: 100%;
   margin: 1rem auto;
-  background-color: #d3d3d3;
+  background-color: #ececec;
 }
 
 .superlined::before {
@@ -405,7 +392,7 @@ main {
   height: 1.5px;
   width: 100%;
   margin: 1rem auto;
-  background-color: #d3d3d3;
+  background-color: #ececec;
 }
 
 .row__category div {
@@ -460,7 +447,7 @@ main {
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
-  border: 1px #e0e0e0 solid;
+  border: 1px #cecece solid;
   margin-right: 0.75rem;
 }
 
