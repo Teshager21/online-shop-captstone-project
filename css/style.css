@@ -94,6 +94,10 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   width: 100%;
   justify-content: center;
@@ -122,8 +126,12 @@ nav a {
   white-space: nowrap;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .nav-items {
-  list-style: none;
+  /*  list-style: none; */
   align-items: center;
 }
 
@@ -167,6 +175,7 @@ nav a {
 
 .current-user {
   align-items: center;
+  min-width: 8rem;
 }
 
 .btn {
@@ -264,6 +273,7 @@ header {
 
 .hot-ads__content {
   width: 90%;
+  border: coral 3px solid;
 }
 
 .hot-ads__img {
@@ -436,4 +446,30 @@ main {
 .border-bottom {
   border-bottom: var(--color-primary) 1px solid;
   padding-bottom: 0.5rem;
+}
+
+/* ---------Search Page--------- */
+
+.checkbox {
+  cursor: pointer;
+  transition-duration: 0.3s;
+  position: relative;
+  outline: none;
+  width: 1.2rem;
+  height: 1.2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  border: 1px #e0e0e0 solid;
+  margin-right: 0.75rem;
+}
+
+.checkbox:checked::before {
+  font-size: 1.5rem;
+  content: '\2713';
+  text-align: center;
+  color: var(--color-primary);
+  position: absolute;
+  left: -5%;
+  top: -30%;
 }
