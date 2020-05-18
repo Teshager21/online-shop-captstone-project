@@ -10,148 +10,200 @@
 <body>
  <div class="container d-flex flex-column">
   <nav>
-   <div class="nav-container d-flex font-sm text-uppercase justify-between">
-     <ul class="nav-items d-flex">
-       <li><a href="./index.html" class="logo d-flex">
-           <i class="fab fa-phoenix-squadron font-n text-primary"> </i>
-         <span class="text-uppercase d-flex"> &nbsp; pheonix</span></a>
-       </li>
-       <li><a href="./index.html" class="active"><i class="fas fa-home pr-1"></i>Home </a>
- 
-       </li>
-       <li><a href="#"><i class="fas fa-dice-four pr-1"></i>Collections</a></li>
-       <li><a href="#"><i class="fas fa-shopping-cart pr-1"></i>Purchase List</a></li>
-       <li><a href="#" class="btn btn-primary">Post and ad</a></li>
- 
-     </ul>
-     <div class="current-user d-flex pr-1">
-       <div class="inbox">
-         <a href="#"> <i class="fas fa-envelope "></i></a>
-         <div class="inbox-num"></div>
-       </div>
-       <div class="user__name">
-         <a href="#"> John Doe</a>
-       </div>
-       <div class="user__picture">
-         <a href="#"><img class="img-fluid"
-             src="https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-             alt=""></a>
-       </div>
- 
- 
-     </div>
-   </div>
- 
- </nav>
- <header class="d-flex flex-column justify-evenly">
-  <div class="header__brand text-light d-flex flex-column">
-    <h1 class="header__title text-uppercase font-xl">
-      pheonix
-    </h1>
-    <div class="moto ">Buying and Selling Couldn't be Simpler than this!</div>
-  </div>
-  <form class="search-block d-flex ">
-    <div class="input-group d-flex font-sm text-secondary">
-      <div class="input d-flex font-sm">
-        <input class="input-area col-2" placeholder="All Departements" >
-        <i class="fas fa-caret-down"></i>
-      </div>
-      <div class="input d-flex">
-        <input class="input-area col-2" placeholder="What do yout search for?">
-      </div>
-      <div class="input d-flex">
-        <input class="input-area col-2" placeholder="Where are you at ?">
-      </div>
-      <div class="d-flex">
-        <a href="./search-result.html" class="btn btn-dark btn-search font-sm d-flex">Search</a></div>
-      </div>
-  </form>
- 
- </header>
+    <div class="nav-container d-flex font-sm text-uppercase justify-between align-center">
+      <ul class="nav-items d-flex align-center">
+        <li><a href="./index.html" class="logo d-flex">
+            <i class="fab fa-phoenix-squadron font-n text-primary"> </i>
+          <span class="text-uppercase d-flex align-center"> &nbsp; pheonix</span></a>
+        </li>
+        <li><a href="./index.html" class="active"><i class="fas fa-home pr-1"></i>Home </a>
 
-<div class="search-result">
+        </li>
+        <li><a href="#"><i class="fas fa-dice-four pr-1"></i>Collections</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart pr-1"></i>Purchase List</a></li>
+        <li><a href="#" class="btn btn-primary">Post and ad</a></li>
+
+      </ul>
+      <div class="current-user d-flex pr-1 justify-between align-center">
+        <div class="inbox">
+          <a href="#"> <i class="fas fa-envelope "></i></a>
+          <div class="inbox-num"></div>
+        </div>
+        <div class="user__name">
+          <a href="#"> John Doe</a>
+        </div>
+        <div class="user__picture">
+          <a href="#"><img class="img-fluid"
+              src="https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt=""></a>
+        </div>
+
+
+      </div>
+    </div>
+
+  </nav>
+  <header class="d-flex flex-column justify-evenly align-center">
+    <div class="header__brand text-light d-flex flex-column align-center">
+      <h1 class="header__title text-uppercase font-xl">
+        pheonix
+      </h1>
+      <div class="moto ">Buying and Selling Couldn't be Simpler than this!</div>
+    </div>
+    <form class="search-block d-flex ">
+      <div class="input-group d-flex font-sm text-secondary">
+        <div class="input d-flex font-sm align-center">
+          <input class="input-area col-2" placeholder="All Departements" >
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="input d-flex align-center">
+          <input class="input-area col-2" placeholder="What do yout search for?">
+        </div>
+        <div class="input d-flex align-center">
+          <input class="input-area col-2" placeholder="Where are you at ?">
+        </div>
+        <div class="d-flex">
+          <a href="./search-result.html" class="btn btn-dark btn-search font-sm d-flex align-center">Search</a></div>
+        </div>
+    </form>
+
+  </header>
+
+<div class="search-result d-flex">
+  <aside class="text-secondary">
+    <div class="major d-flex pl-1">
+      <div class="vegitarian d-flex">
+       <input type="checkbox" class="checkbox"><span class="d-flex align-center">Vegitarian</span>
+      </div>
+      <div class="carnivores d-flex">
+        <input type="checkbox" class="checkbox">
+        <span class="d-flex align-center">Meat Eaters</span>
+      </div>
+    </div>
+  
+    <div class="by-type d-flex flex-column">
+      <div class="title text-bold border-bottom">Type</div>
+      <ul>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">Entire Place</span>
+        </li>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">Private Room</span>
+        </li>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">Shared Room</span>
+        </li>
+  
+  
+      </ul>
+      
+  
+    </div>
+    <div class="by-type">
+      <div class="title text-bold">Price Range</div>
+      <ul>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">1$ - 10$</span>
+        </li>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">10$ - 50$</span>
+        </li>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">50$ - 100$</span>
+        </li>
+  
+  
+      </ul>
+      
+  
+    </div>
+    <div class="by-size">
+      <div class="title text-bold">Size</div>
+      <ul>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">2-4 Rooms</span>
+        </li>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">5+ Rooms</span>
+        </li>
+        <li class="items d-flex align-center">
+          <input type="checkbox" class="checkbox">
+          <span class="item-name">Custom</span>
+        </li>
+  
+  
+      </ul>
+      
+  
+    </div>
+  
+  
+  
+     </aside>
    <main>
+  
+    <div class="hot-ads__content d-flex flex-column">
+      <div class="hot-ads__title text-uppercase p-y text-bold text-secondary">hot ads</div>
+      <div class="ad d-flex">
+        <div class="hot-ads__img">
+          <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+          <div class="slider-carets d-flex">
+            <span class="text-primary"><i class="fas fa-angle-left"></i></span>
+            <span class="text-primary"><i class="fas fa-angle-right"></i></span>
+          </div>
+        </div>
+       <div class="hot-ads__body d-flex flex-column justify-between col-2">
+          <h2 class="hot-ads__header text-primary">  Lorem ipsum dolor sit </h2>
+          <p class="hot-ads__details font-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione tempora animi ut ipsam nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias recusandae? Ea?
+          </p>
+          <div class="btn-group d-flex">
+            <button class="btn btn-primary">
+              450$
+            </button>
+            <button class="btn btn-primary"> <i class="fas fa-shopping-cart pr-1"></i>
+              Purchase details
+            </button>
+          </div>
+       </div>
+      </div>
+
+      <div class="ad d-flex">
+        <div class="hot-ads__img">
+          <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+          <div class="slider-carets d-flex">
+            <span class="text-primary"><i class="fas fa-angle-left"></i></span>
+            <span class="text-primary"><i class="fas fa-angle-right"></i></span>
+          </div>
+        </div>
+       <div class="hot-ads__body d-flex flex-column justify-between col-2">
+          <h2 class="hot-ads__header text-primary">  Lorem ipsum dolor sit </h2>
+          <p class="hot-ads__details font-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione tempora animi ut ipsam nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias recusandae? Ea?
+          </p>
+          <div class="btn-group d-flex">
+            <button class="btn btn-primary">
+              450$
+            </button>
+            <button class="btn btn-primary"> <i class="fas fa-shopping-cart pr-1"></i>
+              Purchase details
+            </button>
+          </div>
+       </div>
+      </div>
+    </div>
   
    </main>
   
-   <aside class="text-secondary">
-  <div class="major">
-    <div class="vegitarian d-flex">
-     <input type="checkbox" class="checkbox"><span class="d-flex align-center">Vegitarian</span>
-    </div>
-    <div class="carnivores d-flex">
-      <input type="checkbox" class="checkbox">
-      <span class="d-flex align-center">Meat Eaters</span>
-    </div>
-  </div>
-
-  <div class="by-type">
-    <div class="title text-bold">Type</div>
-    <ul>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">Entire Place</span>
-      </li>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">Private Room</span>
-      </li>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">Shared Room</span>
-      </li>
-
-
-    </ul>
-    
-
-  </div>
-  <div class="by-type">
-    <div class="title text-bold">Price Range</div>
-    <ul>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">1$ - 10$</span>
-      </li>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">10$ - 50$</span>
-      </li>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">50$ - 100$</span>
-      </li>
-
-
-    </ul>
-    
-
-  </div>
-  <div class="by-type">
-    <div class="title text-bold">Size</div>
-    <ul>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">2-4 Rooms</span>
-      </li>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">5+ Rooms</span>
-      </li>
-      <li class="items d-flex align-center">
-        <input type="checkbox" class="checkbox">
-        <span class="item-name">Custom</span>
-      </li>
-
-
-    </ul>
-    
-
-  </div>
-
-
-
-   </aside>
+  
 </div>
 
 

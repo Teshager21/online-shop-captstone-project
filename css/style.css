@@ -261,7 +261,8 @@ header {
 
 .hot-ads__content {
   width: 90%;
-  border: coral 3px solid;
+
+  /* border: coral 3px solid; */
 }
 
 .hot-ads__img {
@@ -306,10 +307,6 @@ header {
   padding: 0.4em  0.3em;
 }
 
-.btn-group {
-  margin: 0;
-}
-
 .btn-group .btn {
   border: var(--color-primary) 1px solid;
 }
@@ -332,7 +329,7 @@ header {
 /* -------Main---------- */
 
 main {
-  background-color: #f3f3f3;
+  background-color: #f7f7f7;
 }
 
 .card {
@@ -459,4 +456,8 @@ main {
   position: absolute;
   left: -5%;
   top: -30%;
+}
+
+.search-result {
+  background-color: #f7f7f7;
 }
