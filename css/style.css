@@ -153,6 +153,11 @@ nav a {
   margin-right: 1rem;
 }
 
+.my-1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .pl-1 {
   padding-left: 1rem;
 }
@@ -165,6 +170,10 @@ nav a {
 .py-1 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.bg-light {
+  background-color: #fff;
 }
 
 .active {
@@ -308,7 +317,7 @@ header {
 }
 
 .slider-carets * {
-  padding: 0.4em  0.3em;
+  padding: 0.3em  0.3em;
 }
 
 .btn-group .btn {
@@ -333,7 +342,7 @@ header {
 /* -------Main---------- */
 
 main {
-  background-color: #f7f7f7;
+  background-color: #f6f6f6;
 }
 
 .card {
@@ -432,8 +441,12 @@ main {
 }
 
 .border-bottom {
-  border-bottom: var(--color-primary) 1px solid;
+  border-bottom: var(--color-secondary) 1px solid;
   padding-bottom: 0.5rem;
+}
+
+.border-primary {
+  border: var(--color-primary);
 }
 
 /* ---------Search Page--------- */
@@ -464,12 +477,12 @@ main {
 }
 
 .search-result {
-  background-color: #f7f7f7;
+  background-color: #f6f6f6;
   margin: auto auto;
 }
 
 aside {
-  padding: 1em 1em 1em 5em;
+  padding: 1em 1em 1em 2em;
 }
 
 .border {
