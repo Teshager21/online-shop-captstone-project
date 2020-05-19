@@ -119,7 +119,7 @@ nav {
   position: fixed;
   top: 0;
   right: 0;
-  height: 2rem;
+  height: 3rem;
   z-index: 9999;
 }
 
@@ -236,7 +236,7 @@ header {
   position: relative;
   min-height: 10em;
   background-color: var(--color-primary);
-  margin-top: 2rem;
+  margin-top: 3rem;
   white-space: nowrap;
 }
 
@@ -308,8 +308,6 @@ header {
   margin: 1em;
   min-width: 0;
   margin-top: 0.5rem;
-
-  /* max-height: 10rem; */
 }
 
 .ad {
@@ -367,7 +365,7 @@ header {
 main {
   background-color: #f6f6f6;
   flex: 4;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .card {
@@ -417,7 +415,7 @@ main {
   content: " ";
   height: 1.5px;
   width: 100%;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   background-color: #ececec;
 }
 
@@ -431,7 +429,7 @@ main {
 
 .row__category div {
   width: 90%;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
 
 /* -------Footer----------------- */
@@ -569,6 +567,18 @@ aside {
 @media (min-width: 567px) {
   .mobile-hide {
     display: flex;
+  }
+
+  nav {
+    height: 2rem;
+  }
+
+  main {
+    margin-top: 2rem;
+  }
+
+  header {
+    margin-top: 2rem;
   }
 
   .copy-right {
