@@ -132,11 +132,7 @@ nav a {
 .nav-container {
   width: 88%;
   margin: 0 auto;
-
-  /* padding: 0.15em 0; */
   white-space: nowrap;
-
-  /*  background-color: gold; */
   height: 100%;
 }
 
@@ -198,6 +194,7 @@ nav a {
 .current-user {
   min-width: 8rem;
   height: 100%;
+  align-self:end;
 }
 
 .btn {
@@ -311,6 +308,7 @@ header {
   margin: 1em;
   min-width: 0;
   margin-top: 0.5rem;
+  /* max-height: 10rem; */
 }
 
 .ad {
@@ -443,8 +441,6 @@ main {
 
 .footer-col-3 {
   flex: 3;
-
-  /*  text-align: justify; */
 }
 
 .about-company .logo {
@@ -553,6 +549,10 @@ aside {
 
 .hidden {
   display: block;
+}
+
+.ellepsis {
+  text-overflow: ellipsis;
 }
 
 @media (min-width: 769px) {

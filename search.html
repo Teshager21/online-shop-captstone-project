@@ -12,7 +12,7 @@
 <body>
   <div class="container d-flex flex-column">
     <nav>
-      <div class="nav-container d-flex font-sm text-uppercase justify-between">
+      <div class="nav-container d-flex font-sm text-uppercase justify-between align-center">
         <ul class="nav-items d-flex align-center">
           <li><a href="./index.html" class="logo d-flex">
               <i class="fab fa-phoenix-squadron font-n text-primary"> </i>
@@ -23,25 +23,29 @@
           </li>
           <li><a href="#" class="d-flex"><i class="fas fa-dice-four pr-1"></i><span class="visible">Collections</span></a></li>
           <li><a href="#" class="d-flex"><i class="fas fa-shopping-cart pr-1"></i><span class="visible">Purchase List</span></a></li>
-          <li><a href="#" class="btn btn-primary">Post and ad</a></li>
+          <li><a href="#" class="btn btn-primary visible">Post and ad</a></li>
 
         </ul>
+        <div><a href="search.html" class="btn btn-primary hidden">Search</a></div>
         <div class="current-user d-flex pr-1 justify-between align-center visible">
-          <div class="inbox">
-            <a href="#"> <i class="fas fa-envelope "></i></a>
-            <div class="inbox-num"></div>
-          </div>
-          <div class="user__name">
-            <a href="#"> John Doe</a>
+          <div class="d-flex">
+            <div class="inbox">
+              <a href="#"> <i class="fas fa-envelope "></i></a>
+              <div class="inbox-num"></div>
+            </div>
+            <div class="user__name">
+              <a href="#"> John Doe</a>
+            </div>
+           
+            
           </div>
           <div class="user__picture">
             <a href="#"><img class="img-fluid"
                 src="https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 alt=""></a>
           </div>
-
-
         </div>
+       
       </div>
 
     </nav>
@@ -52,17 +56,17 @@
         </h1>
         <div class="moto ">Buying and Selling Couldn't be Simpler than this!</div>
       </div>
-      <form class="search-block d-flex ">
+      <form class="search-block d-flex p-1">
         <div class="input-group d-flex font-sm text-secondary">
           <div class="input d-flex font-sm align-center">
-            <input class="input-area col-2" placeholder="All Departements" >
+            <input class="input-area " placeholder="All Departements" >
             <i class="fas fa-caret-down"></i>
           </div>
           <div class="input d-flex align-center">
-            <input class="input-area col-2" placeholder="What do yout search for?">
+            <input class="input-area" placeholder="What do yout search for?">
           </div>
           <div class="input d-flex align-center">
-            <input class="input-area col-2" placeholder="Where are you at ?">
+            <input class="input-area" placeholder="Where are you at ?">
           </div>
           <div class="d-flex">
             <a href="./search.html" class="btn btn-dark btn-search font-sm d-flex align-center">Search</a></div>
@@ -176,10 +180,9 @@
                   </div>
                 </div>
                 <p class="text-primary text-bold">200M, Vegetarian</p>
-                <p class="hot-ads__details font-sm p-y ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione tempora animi ut ipsam
-                  nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
-                  recusandae? Ea?
+                <p class="hot-ads__details font-sm p-y">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="mobile-hide">speriores ratione tempora animi ut ipsam Nam explicabo neque expedita obcaecati maiores quae alias
+                  nesciunt culpa nihil velit totam aspernatur? </span>
                 </p>
                 <div class="location p-y ">
                   <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
@@ -214,9 +217,11 @@
                 </div>
                 <p class="text-primary text-bold">200M, Vegetarian</p>
                 <p class="hot-ads__details font-sm p-y ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione tempora animi ut ipsam
-                  nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
-                  recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="mobile-hide">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.   Asperiores ratione tempora animi ut ipsam
+                    nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
+                    recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
                 </p>
                 <div class="location p-y ">
                   <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
@@ -254,9 +259,11 @@
                 </div>
                 <p class="text-primary text-bold">200M, Vegetarian</p>
                 <p class="hot-ads__details font-sm p-y ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione tempora animi ut ipsam
-                  nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
-                  recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="mobile-hide">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.   Asperiores ratione tempora animi ut ipsam
+                    nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
+                    recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
                 </p>
                 <div class="location p-y ">
                   <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
@@ -291,9 +298,11 @@
                 </div>
                 <p class="text-primary text-bold">200M, Vegetarian</p>
                 <p class="hot-ads__details font-sm p-y ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione tempora animi ut ipsam
-                  nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
-                  recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="mobile-hide">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.   Asperiores ratione tempora animi ut ipsam
+                    nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
+                    recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                 </p>
                 <div class="location p-y ">
                   <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
@@ -328,9 +337,11 @@
                 </div>
                 <p class="text-primary text-bold">200M, Vegetarian</p>
                 <p class="hot-ads__details font-sm p-y ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione tempora animi ut ipsam
-                  nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
-                  recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="mobile-hide">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.   Asperiores ratione tempora animi ut ipsam
+                    nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
+                    recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
                 </p>
                 <div class="location p-y ">
                   <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
