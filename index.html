@@ -12,7 +12,7 @@
 <body>
   <div class="container d-flex flex-column">
     <nav>
-      <div class="nav-container d-flex font-sm text-uppercase justify-between">
+      <div class="nav-container d-flex font-sm text-uppercase justify-between align-center">
         <ul class="nav-items d-flex align-center">
           <li><a href="./index.html" class="logo d-flex">
               <i class="fab fa-phoenix-squadron font-n text-primary"> </i>
@@ -23,25 +23,28 @@
           </li>
           <li><a href="#" class="d-flex"><i class="fas fa-dice-four pr-1"></i><span class="visible">Collections</span></a></li>
           <li><a href="#" class="d-flex"><i class="fas fa-shopping-cart pr-1"></i><span class="visible">Purchase List</span></a></li>
-          <li><a href="#" class="btn btn-primary">Post and ad</a></li>
+          <li><a href="#" class="btn btn-primary visible">Post and ad</a></li>
 
         </ul>
         <div class="current-user d-flex pr-1 justify-between align-center visible">
-          <div class="inbox">
-            <a href="#"> <i class="fas fa-envelope "></i></a>
-            <div class="inbox-num"></div>
-          </div>
-          <div class="user__name">
-            <a href="#"> John Doe</a>
+          <div class="d-flex">
+            <div class="inbox">
+              <a href="#"> <i class="fas fa-envelope "></i></a>
+              <div class="inbox-num"></div>
+            </div>
+            <div class="user__name">
+              <a href="#"> John Doe</a>
+            </div>
+           
+            
           </div>
           <div class="user__picture">
             <a href="#"><img class="img-fluid"
                 src="https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                 alt=""></a>
           </div>
-
-
         </div>
+        <div><a href="search.html" class="btn btn-primary hidden">Search</a></div>
       </div>
 
     </nav>
@@ -74,340 +77,342 @@
       </div>
 
     </header>
-    <div class="hot-ads d-flex visible">
-      
-        <div class="slide d-flex align-center">
-          <a href="#"><i class="fas fa-angle-left text-primary"></i></a>
-        </div>
-        <div class="hot-ads__content d-flex flex-column">
-          <div class="hot-ads__title text-uppercase p-y text-bold text-secondary">hot ads</div>
-          <div class="ad d-flex">
-            <div class="hot-ads__img">
-              <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-              <div class="slider-carets d-flex">
-                <span class="text-primary"><i class="fas fa-angle-left"></i></span>
-                <span class="text-primary"><i class="fas fa-angle-right"></i></span>
+    <div class="content">
+      <div class="hot-ads d-flex visible">
+        
+          <div class="slide d-flex align-center">
+            <a href="#"><i class="fas fa-angle-left text-primary"></i></a>
+          </div>
+          <div class="hot-ads__content d-flex flex-column">
+            <div class="hot-ads__title text-uppercase p-y text-bold text-secondary">hot ads</div>
+            <div class="ad d-flex">
+              <div class="hot-ads__img">
+                <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+                <div class="slider-carets d-flex">
+                  <span class="text-primary"><i class="fas fa-angle-left"></i></span>
+                  <span class="text-primary"><i class="fas fa-angle-right"></i></span>
+                </div>
               </div>
-            </div>
-           <div class="hot-ads__body d-flex flex-column justify-between col-2">
-              <h2 class="hot-ads__header text-primary">  Lorem ipsum dolor sit </h2>
-              <p class="hot-ads__details font-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Nam explicabo neque expedita obcaecati maiores quae alias recusandae? Ea?
-              </p>
-
-              <div class="location p-y text-secondary">
-                <p class="font-sm">
-                  <span class="text-bold ">By:</span> <span> Moonlight Cafe</span>
+             <div class="hot-ads__body d-flex flex-column justify-between col-2">
+                <h2 class="hot-ads__header text-primary">  Lorem ipsum dolor sit </h2>
+                <p class="hot-ads__details font-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.Nam explicabo neque expedita obcaecati maiores quae alias recusandae? Ea?
                 </p>
-                <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
-              </div>
-
-              <div class="btn-group d-flex">
-                <button class="btn btn-primary">
-                  450$
-                </button>
-                <button class="btn btn-primary"> <i class="fas fa-shopping-cart pr-1"></i>
-                  Purchase details
-                </button>
-              </div>
-           </div>
+  
+                <div class="location p-y text-secondary">
+                  <p class="font-sm">
+                    <span class="text-bold ">By:</span> <span> Moonlight Cafe</span>
+                  </p>
+                  <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
+                </div>
+  
+                <div class="btn-group d-flex">
+                  <button class="btn btn-primary">
+                    450$
+                  </button>
+                  <button class="btn btn-primary"> <i class="fas fa-shopping-cart pr-1"></i>
+                    Purchase details
+                  </button>
+                </div>
+             </div>
+            </div>
           </div>
+         <div class="slide d-flex align-center">
+          <a href="#"><i class="fas fa-angle-right text-primary"></i></a>
         </div>
-       <div class="slide d-flex align-center">
-        <a href="#"><i class="fas fa-angle-right text-primary"></i></a>
       </div>
-    </div>
-    <main>
-    <div class="row d-flex flex-column">
-      <div class="row__category underlined text-secondary">
-        <div class="d-flex underlined flex-column">
-         <span class="d-flex">
-            <span class="icon"><i class="fas fa-hamburger"></i>&nbsp;</span>
-            <span class="text-bold">&nbsp;CupCakes &nbsp;</span></i><span>&nbsp;( Lorem ipsum dolor sit amet consectetur. )</span>
-         </span>
-        </div>
-        </div>
-      <div class="wrapper">
-         <div class="card">
-           <div class="card__img">
-            <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-           </div>
-           <div class="card__info text-secondary">
-             <div class="card__title text-bold font-n">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-             <div class="card__type text-primary text-bold font-sm">Vegeterian</div>
-             <div class="card__status font-sm"><span >Status:</span><span class="text-bold">Ready</span></div>
-             <div class="card__detail">
-               <div class="card__cta">
-               <i class="fas fa-plus"></i>
+      <main>
+      <div class="row d-flex flex-column">
+        <div class="row__category underlined text-secondary">
+          <div class="d-flex underlined flex-column">
+           <span class="d-flex">
+              <span class="icon"><i class="fas fa-hamburger"></i>&nbsp;</span>
+              <span class="text-bold">&nbsp;CupCakes &nbsp;</span></i><span>&nbsp;( Lorem ipsum dolor sit amet consectetur. )</span>
+           </span>
+          </div>
+          </div>
+        <div class="wrapper">
+           <div class="card">
+             <div class="card__img">
+              <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+             </div>
+             <div class="card__info text-secondary">
+               <div class="card__title text-bold font-n">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+               <div class="card__type text-primary text-bold font-sm">Vegeterian</div>
+               <div class="card__status font-sm"><span >Status:</span><span class="text-bold">Ready</span></div>
+               <div class="card__detail">
+                 <div class="card__cta">
+                 <i class="fas fa-plus"></i>
+                 </div>
+                 <div class="card__price text-bold text-primary"><span>450$</span></div>
                </div>
-               <div class="card__price text-bold text-primary"><span>450$</span></div>
              </div>
            </div>
-         </div>
-         <div class="card">
-          <div class="card__img">
-           <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-          </div>
-          <div class="card__info text-secondary">
-            <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-            <div class="card__type text-primary text-bold">Vegeterian</div>
-            <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-            <div class="card__detail">
-              <div class="card__cta">
-              <i class="fas fa-plus"></i>
-              </div>
-              <div class="card__price text-bold text-primary">450$</div>
+           <div class="card">
+            <div class="card__img">
+             <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
             </div>
-          </div>
-          
-        </div> 
-        <div class="card">
-          <div class="card__img">
-           <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-          </div>
-          <div class="card__info text-secondary">
-            <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-            <div class="card__type text-primary text-bold">Vegeterian</div>
-            <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-            <div class="card__detail">
-              <div class="card__cta">
-              <i class="fas fa-plus"></i>
+            <div class="card__info text-secondary">
+              <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+              <div class="card__type text-primary text-bold">Vegeterian</div>
+              <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+              <div class="card__detail">
+                <div class="card__cta">
+                <i class="fas fa-plus"></i>
+                </div>
+                <div class="card__price text-bold text-primary">450$</div>
               </div>
-              <div class="card__price text-bold text-primary">450$</div>
             </div>
-          </div>
-          
-        </div>
-        <div class="card">
-          <div class="card__img">
-           <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-          </div>
-          <div class="card__info text-secondary">
-            <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-            <div class="card__type text-primary text-bold">Vegeterian</div>
-            <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-            <div class="card__detail">
-              <div class="card__cta">
-              <i class="fas fa-plus"></i>
-              </div>
-              <div class="card__price text-bold text-primary">450$</div>
+            
+          </div> 
+          <div class="card">
+            <div class="card__img">
+             <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
             </div>
-          </div>
-          
-        </div>
-        <div class="card">
-          <div class="card__img">
-           <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-          </div>
-          <div class="card__info text-secondary">
-            <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-            <div class="card__type text-primary text-bold">Vegeterian</div>
-            <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-            <div class="card__detail">
-              <div class="card__cta">
-              <i class="fas fa-plus"></i>
+            <div class="card__info text-secondary">
+              <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+              <div class="card__type text-primary text-bold">Vegeterian</div>
+              <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+              <div class="card__detail">
+                <div class="card__cta">
+                <i class="fas fa-plus"></i>
+                </div>
+                <div class="card__price text-bold text-primary">450$</div>
               </div>
-              <div class="card__price text-bold text-primary">450$</div>
             </div>
-          </div>
-          
-        </div>
-  
-      </div>
-    </div>
-
-    <div class="row d-flex flex-column">
-      <div class="row__category underlined text-secondary">
-        <div class="d-flex underlined flex-column">
-         <span class="d-flex">
-            <span class="icon"><i class="fas fa-hamburger"></i>&nbsp;</span>
-            <span class="text-bold">&nbsp;CupCakes &nbsp;</span></i><span>&nbsp;( Lorem ipsum dolor sit amet consectetur)</span>
-         </span>
-        </div>
-        </div>
-      <div class="wrapper">
-         <div class="card">
-           <div class="card__img">
-            <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-           </div>
-           <div class="card__info text-secondary">
-             <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-             <div class="card__type text-primary text-bold">Vegeterian</div>
-             <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-             <div class="card__detail">
-               <div class="card__cta">
-               <i class="fas fa-plus"></i>
-               </div>
-               <div class="card__price text-bold text-primary"><span>450$</span></div>
-             </div>
-           </div>
-         </div>
-  
-  
-  
-  
-         <div class="card">
-          <div class="card__img">
-           <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-          </div>
-          <div class="card__info text-secondary">
-            <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-            <div class="card__type text-primary text-bold">Vegeterian</div>
-            <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-            <div class="card__detail">
-              <div class="card__cta">
-              <i class="fas fa-plus"></i>
-              </div>
-              <div class="card__price text-bold text-primary">450$</div>
-            </div>
-          </div>
-          
-        </div> 
-        <div class="card">
-          <div class="card__img">
-           <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-          </div>
-          <div class="card__info text-secondary">
-            <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-            <div class="card__type text-primary text-bold">Vegeterian</div>
-            <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-            <div class="card__detail">
-              <div class="card__cta">
-              <i class="fas fa-plus"></i>
-              </div>
-              <div class="card__price text-bold text-primary">450$</div>
-            </div>
-          </div>
-          
-        </div>
-        <div class="card">
-          <div class="card__img">
-           <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-          </div>
-          <div class="card__info text-secondary">
-            <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-            <div class="card__type text-primary text-bold">Vegeterian</div>
-            <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-            <div class="card__detail">
-              <div class="card__cta">
-              <i class="fas fa-plus"></i>
-              </div>
-              <div class="card__price text-bold text-primary">450$</div>
-            </div>
-          </div>
-          
-        </div>
-        <div class="card">
-          <div class="card__img">
-           <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
-          </div>
-          <div class="card__info text-secondary">
-            <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
-            <div class="card__type text-primary text-bold">Vegeterian</div>
-            <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
-            <div class="card__detail">
-              <div class="card__cta">
-              <i class="fas fa-plus"></i>
-              </div>
-              <div class="card__price text-bold text-primary">450$</div>
-            </div>
-          </div>
-          
-        </div>
-  
-      </div>
-    </div>
-
-    </main>
-
-    <footer>
-      <div class="footer-top d-flex text-secondary flex-column">
-        <div class="about-company footer-col-3 d-flex flex-column p-1">
-          <a href="#" class="logo d-flex p-1">
-            <i class="fab fa-phoenix-squadron font-xl"> </i>
-          <span class="text-uppercase d-flex"> &nbsp; pheonix</span></a>
-          <p class="about-company__detail pr-1 prl-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.Saepe incidunt, officia tenetur sunt nesciunt eum voluptatem, quibusdam non placeat praesentium ex laboriosam recusandae, explicabo odit.
-          </p>
-        </div>
-        <div class="footer-col-3 d-flex">
-          <div class="col-2 p-1">
-              <div class="col-title text-primary text-bold border-primary pl-0 text-uppercase py-1">Categories</div>
-               <div class="d-flex justify-between">
-                 <ul class="font-sm p-1 pl-0 p-y">
-                   <li class="list-items"><a href="#">Cakes</a></li>
-                   <li class="list-items"><a href="#">Hamburgers</a></li>
-                   <li class="list-items"><a href="#">Pizas</a></li>
-                   <li class="list-items"><a href="#">Sandwich</a></li>
-                   <li class="list-items"><a href="#">Stakes</a></li>
-                   <li class="list-items"><a href="#">Milk Shake</a></li>
-                   <li class="list-items"><a href="#">Cheese burger</a></li>
-                 </ul>
-                 <ul class="font-sm p-1 p-y">
-                  <li class="list-items"><a href="#">Cakes</a></li>
-                  <li class="list-items"><a href="#">Hamburgers</a></li>
-                  <li class="list-items"><a href="#">Pizas</a></li>
-                  <li class="list-items"><a href="#">Sandwich</a></li>
-                  <li class="list-items"><a href="#">Stakes</a></li>
-                  <li class="list-items"><a href="#">Milk Shake</a></li>
-                  <li class="list-items"><a href="#">Cheese burger</a></li>
-                </ul>
-                <ul class="font-sm p-1 p-y">
-                  <li class="list-items"><a href="#">Cakes</a></li>
-                  <li class="list-items"><a href="#">Hamburgers</a></li>
-                  <li class="list-items"><a href="#">Pizas</a></li>
-                  <li class="list-items"><a href="#">Sandwich</a></li>
-                  <li class="list-items"><a href="#">Stakes</a></li>
-                  <li class="list-items"><a href="#">Milk Shake</a></li>
-                  <li class="list-items"><a href="#">Cheese burger</a></li>
-                </ul>
-               </div>
-  
-          </div>
-          <div class="col-1 p-1 visible d-flex flex-column">
-              <div class="col-title text-primary text-bold border-primary  pl-0 text-uppercase py-1">Navigation</div>
-               <ul class="font-sm p-1 pl-0 p-y">
-                 <li class="list-items"><a href="#">Home</a></li>
-                 <li class="list-items"><a href="#">Sign in</a></li>
-                 <li class="list-items"><a href="#">Sign up</a></li>
-                 <li class="list-items"><a href="#">Terms&Conditions</a></li>
-                 <li class="list-items"><a href="#">FAQ</a></li>
-                 <li class="list-items"><a href="#">Help</a></li>
-               </ul>
-          </div>
-          <div class="col-1 d-flex font-sm justify-evenly p-1 visible">
-              <div class="d-flex flex-column justify-evenly">
-                <span class="text-uppercase text-primary text-bold">City</span>
-                <span class="text-uppercase text-primary text-bold mr-1">Language</span>
-                <span class="text-uppercase text-primary text-bold">Currency</span>
-              </div>
-              <div class="d-flex flex-column justify-evenly">
-                <button class=" btn btn-outline">Newyork</button>
-                <button class=" btn btn-outline pl-0">English</button>
-                <button class=" btn btn-outline">USD</button>
-              </div>
             
           </div>
+          <div class="card">
+            <div class="card__img">
+             <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+            </div>
+            <div class="card__info text-secondary">
+              <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+              <div class="card__type text-primary text-bold">Vegeterian</div>
+              <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+              <div class="card__detail">
+                <div class="card__cta">
+                <i class="fas fa-plus"></i>
+                </div>
+                <div class="card__price text-bold text-primary">450$</div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="card">
+            <div class="card__img">
+             <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+            </div>
+            <div class="card__info text-secondary">
+              <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+              <div class="card__type text-primary text-bold">Vegeterian</div>
+              <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+              <div class="card__detail">
+                <div class="card__cta">
+                <i class="fas fa-plus"></i>
+                </div>
+                <div class="card__price text-bold text-primary">450$</div>
+              </div>
+            </div>
+            
+          </div>
+    
         </div>
       </div>
-
-      <div class="d-flex superlined flex-column pl-1">
-        <div class="copy-right text-secondary d-flex font-sm justify-between pl-1 pr-1 flex-column align-center">
-           <p class="copy-right__paragraph d-flex p-1"><span>Copyirght&copy; 2015 Pheonix.com.</span> <span>All Rights Reserved.Designed by Mohammed Award.</span></p>
-           <div class="social font-n p-1">
-            <i class="fab fa-yahoo pr-1"></i>
-            <i class="fab fa-google-plus-g pr-1"></i>
-            <i class="fab fa-linkedin pr-1"></i>
-            <i class="fab fa-twitter pr-1"></i>
-            <i class="fab fa-facebook-f pr-1"></i>
+  
+      <div class="row d-flex flex-column">
+        <div class="row__category underlined text-secondary">
+          <div class="d-flex underlined flex-column">
+           <span class="d-flex">
+              <span class="icon"><i class="fas fa-hamburger"></i>&nbsp;</span>
+              <span class="text-bold">&nbsp;CupCakes &nbsp;</span></i><span>&nbsp;( Lorem ipsum dolor sit amet consectetur)</span>
+           </span>
+          </div>
+          </div>
+        <div class="wrapper">
+           <div class="card">
+             <div class="card__img">
+              <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+             </div>
+             <div class="card__info text-secondary">
+               <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+               <div class="card__type text-primary text-bold">Vegeterian</div>
+               <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+               <div class="card__detail">
+                 <div class="card__cta">
+                 <i class="fas fa-plus"></i>
+                 </div>
+                 <div class="card__price text-bold text-primary"><span>450$</span></div>
+               </div>
+             </div>
+           </div>
+    
+    
+    
+    
+           <div class="card">
+            <div class="card__img">
+             <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+            </div>
+            <div class="card__info text-secondary">
+              <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+              <div class="card__type text-primary text-bold">Vegeterian</div>
+              <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+              <div class="card__detail">
+                <div class="card__cta">
+                <i class="fas fa-plus"></i>
+                </div>
+                <div class="card__price text-bold text-primary">450$</div>
+              </div>
+            </div>
+            
+          </div> 
+          <div class="card">
+            <div class="card__img">
+             <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+            </div>
+            <div class="card__info text-secondary">
+              <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+              <div class="card__type text-primary text-bold">Vegeterian</div>
+              <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+              <div class="card__detail">
+                <div class="card__cta">
+                <i class="fas fa-plus"></i>
+                </div>
+                <div class="card__price text-bold text-primary">450$</div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="card">
+            <div class="card__img">
+             <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+            </div>
+            <div class="card__info text-secondary">
+              <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+              <div class="card__type text-primary text-bold">Vegeterian</div>
+              <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+              <div class="card__detail">
+                <div class="card__cta">
+                <i class="fas fa-plus"></i>
+                </div>
+                <div class="card__price text-bold text-primary">450$</div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="card">
+            <div class="card__img">
+             <img class="img-fluid" src="https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="#">
+            </div>
+            <div class="card__info text-secondary">
+              <div class="card__title text-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum.</div>
+              <div class="card__type text-primary text-bold">Vegeterian</div>
+              <div class="card__status"><span >Status:</span><span class="text-bold">Ready</span></div>
+              <div class="card__detail">
+                <div class="card__cta">
+                <i class="fas fa-plus"></i>
+                </div>
+                <div class="card__price text-bold text-primary">450$</div>
+              </div>
+            </div>
+            
+          </div>
+    
+        </div>
+      </div>
+  
+      </main>
+  
+      <footer>
+        <div class="footer-top d-flex text-secondary flex-column">
+          <div class="about-company footer-col-3 d-flex flex-column p-1">
+            <a href="#" class="logo d-flex p-1">
+              <i class="fab fa-phoenix-squadron font-xl"> </i>
+            <span class="text-uppercase d-flex"> &nbsp; pheonix</span></a>
+            <p class="about-company__detail pr-1 prl-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.Saepe incidunt, officia tenetur sunt nesciunt eum voluptatem, quibusdam non placeat praesentium ex laboriosam recusandae, explicabo odit.
+            </p>
+          </div>
+          <div class="footer-col-3 d-flex">
+            <div class="col-2 p-1">
+                <div class="col-title text-primary text-bold border-primary pl-0 text-uppercase py-1">Categories</div>
+                 <div class="d-flex justify-between">
+                   <ul class="font-sm p-1 pl-0 p-y">
+                     <li class="list-items"><a href="#">Cakes</a></li>
+                     <li class="list-items"><a href="#">Hamburgers</a></li>
+                     <li class="list-items"><a href="#">Pizas</a></li>
+                     <li class="list-items"><a href="#">Sandwich</a></li>
+                     <li class="list-items"><a href="#">Stakes</a></li>
+                     <li class="list-items"><a href="#">Milk Shake</a></li>
+                     <li class="list-items"><a href="#">Cheese burger</a></li>
+                   </ul>
+                   <ul class="font-sm p-1 p-y">
+                    <li class="list-items"><a href="#">Cakes</a></li>
+                    <li class="list-items"><a href="#">Hamburgers</a></li>
+                    <li class="list-items"><a href="#">Pizas</a></li>
+                    <li class="list-items"><a href="#">Sandwich</a></li>
+                    <li class="list-items"><a href="#">Stakes</a></li>
+                    <li class="list-items"><a href="#">Milk Shake</a></li>
+                    <li class="list-items"><a href="#">Cheese burger</a></li>
+                  </ul>
+                  <ul class="font-sm p-1 p-y">
+                    <li class="list-items"><a href="#">Cakes</a></li>
+                    <li class="list-items"><a href="#">Hamburgers</a></li>
+                    <li class="list-items"><a href="#">Pizas</a></li>
+                    <li class="list-items"><a href="#">Sandwich</a></li>
+                    <li class="list-items"><a href="#">Stakes</a></li>
+                    <li class="list-items"><a href="#">Milk Shake</a></li>
+                    <li class="list-items"><a href="#">Cheese burger</a></li>
+                  </ul>
+                 </div>
+    
+            </div>
+            <div class="col-1 p-1 visible d-flex flex-column">
+                <div class="col-title text-primary text-bold border-primary  pl-0 text-uppercase py-1">Navigation</div>
+                 <ul class="font-sm p-1 pl-0 p-y">
+                   <li class="list-items"><a href="#">Home</a></li>
+                   <li class="list-items"><a href="#">Sign in</a></li>
+                   <li class="list-items"><a href="#">Sign up</a></li>
+                   <li class="list-items"><a href="#">Terms&Conditions</a></li>
+                   <li class="list-items"><a href="#">FAQ</a></li>
+                   <li class="list-items"><a href="#">Help</a></li>
+                 </ul>
+            </div>
+            <div class="col-1 d-flex font-sm justify-evenly p-1 visible">
+                <div class="d-flex flex-column justify-evenly">
+                  <span class="text-uppercase text-primary text-bold">City</span>
+                  <span class="text-uppercase text-primary text-bold mr-1">Language</span>
+                  <span class="text-uppercase text-primary text-bold">Currency</span>
+                </div>
+                <div class="d-flex flex-column justify-evenly">
+                  <button class=" btn btn-outline">Newyork</button>
+                  <button class=" btn btn-outline pl-0">English</button>
+                  <button class=" btn btn-outline">USD</button>
+                </div>
+              
+            </div>
           </div>
         </div>
-
-        </div>
-        
-     
-
-    </footer>
+  
+        <div class="d-flex superlined flex-column pl-1">
+          <div class="copy-right text-secondary d-flex font-sm justify-between pl-1 pr-1 flex-column align-center">
+             <p class="copy-right__paragraph d-flex p-1"><span>Copyirght&copy; 2015 Pheonix.com.</span> <span>All Rights Reserved.Designed by Mohammed Award.</span></p>
+             <div class="social font-n p-1">
+              <i class="fab fa-yahoo pr-1"></i>
+              <i class="fab fa-google-plus-g pr-1"></i>
+              <i class="fab fa-linkedin pr-1"></i>
+              <i class="fab fa-twitter pr-1"></i>
+              <i class="fab fa-facebook-f pr-1"></i>
+            </div>
+          </div>
+  
+          </div>
+          
+       
+  
+      </footer>
+    </div>
   </div>
   <script src="js/all.min.js"></script>
 </body>
