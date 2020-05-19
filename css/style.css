@@ -351,6 +351,7 @@ header {
 
 main {
   background-color: #f6f6f6;
+  flex: 4;
 }
 
 .card {
@@ -452,7 +453,7 @@ main {
 }
 
 .border-primary {
-  border: var(--color-primary);
+  border-bottom: var(--color-primary) 1px solid;
 }
 
 .footer-top {
@@ -498,6 +499,7 @@ main {
 
 aside {
   padding: 1em 1em 1em 2em;
+  flex: 1;
 }
 
 .border {

@@ -12,17 +12,17 @@
 <body>
   <div class="container d-flex flex-column">
     <nav>
-      <div class="nav-container d-flex font-sm text-uppercase justify-between align-center">
+      <div class="nav-container d-flex font-sm text-uppercase justify-between">
         <ul class="nav-items d-flex align-center">
           <li><a href="./index.html" class="logo d-flex">
               <i class="fab fa-phoenix-squadron font-n text-primary"> </i>
-              <span class="text-uppercase d-flex align-center"> &nbsp; pheonix</span></a>
+            <span class="text-uppercase d-flex align-center"> &nbsp; pheonix</span></a>
           </li>
-          <li><a href="./index.html" class="active"><i class="fas fa-home pr-1"></i>Home </a>
+          <li><a href="./index.html" class="active d-flex"><i class="fas fa-home pr-1"></i><span class="visible">Home </span></a>
 
           </li>
-          <li><a href="#"><i class="fas fa-dice-four pr-1"></i>Collections</a></li>
-          <li><a href="#"><i class="fas fa-shopping-cart pr-1"></i>Purchase List</a></li>
+          <li><a href="#" class="d-flex"><i class="fas fa-dice-four pr-1"></i><span class="visible">Collections</span></a></li>
+          <li><a href="#" class="d-flex"><i class="fas fa-shopping-cart pr-1"></i><span class="visible">Purchase List</span></a></li>
           <li><a href="#" class="btn btn-primary">Post and ad</a></li>
 
         </ul>
@@ -45,7 +45,7 @@
       </div>
 
     </nav>
-    <header class="d-flex flex-column justify-evenly align-center">
+    <header class="d-flex flex-column justify-evenly align-center mobile-hide">
       <div class="header__brand text-light d-flex flex-column align-center">
         <h1 class="header__title text-uppercase font-xl">
           pheonix
@@ -55,7 +55,7 @@
       <form class="search-block d-flex ">
         <div class="input-group d-flex font-sm text-secondary">
           <div class="input d-flex font-sm align-center">
-            <input class="input-area col-2" placeholder="All Departements">
+            <input class="input-area col-2" placeholder="All Departements" >
             <i class="fas fa-caret-down"></i>
           </div>
           <div class="input d-flex align-center">
@@ -66,17 +66,19 @@
           </div>
           <div class="d-flex">
             <a href="./search.html" class="btn btn-dark btn-search font-sm d-flex align-center">Search</a></div>
-        </div>
+          </div>
       </form>
+
       <div class="background">
         <i class="fab fa-phoenix-squadron"></i>
       </div>
+
     </header>
 
     <div class="search-result d-flex mr-1 pr-1 ">
 
 
-      <aside class="text-secondary">
+      <aside class="text-secondary visible flex-column">
         <div class="major d-flex font-sm">
           <div class="vegitarian d-flex">
             <input type="checkbox" class="checkbox"><span class="d-flex align-center pr-1">Vegetarian</span>
@@ -87,8 +89,8 @@
           </div>
         </div>
 
-        <div class="by-type d-flex flex-column p-y">
-          <div class="title text-bold border-bottom">Type</div>
+        <div class="by-type d-flex flex-column p-y ">
+          <div class="title text-bold border-bottom border-bottom my-1">Type</div>
           <ul class="p-y font-sm">
             <li class="items d-flex align-center">
               <input type="checkbox" class="checkbox">
@@ -109,7 +111,7 @@
 
         </div>
         <div class="by-type">
-          <div class="title text-bold">Price Range</div>
+          <div class="title text-bold border-bottom my-1">Price Range</div>
           <ul class="p-y font-sm">
             <li class="items d-flex align-center">
               <input type="checkbox" class="checkbox">
@@ -130,7 +132,7 @@
 
         </div>
         <div class="by-size">
-          <div class="title text-bold">Size</div>
+          <div class="title text-bold border-bottom my-1">Size</div>
           <ul class="p-y font-sm">
             <li class="items d-flex align-center">
               <input type="checkbox" class="checkbox">
@@ -152,7 +154,7 @@
 
 
       </aside>
-      <main class="border mr-1 d-flex">
+      <main class="border d-flex">
 
         <div class="hot-ads__content d-flex flex-column">
           <div class="hot-ads__title p-y text-bold text-secondary border p-1">138 Results for "Hamburgers" Search at San Fransisco in Category Burgers</div>
@@ -352,78 +354,81 @@
     </div>
 
 
-
-
-
-
-
-
-
     <footer>
-      <div class="d-flex text-secondary">
+      <div class="footer-top d-flex text-secondary flex-column">
         <div class="about-company footer-col-3 d-flex flex-column p-1">
           <a href="#" class="logo d-flex p-1">
             <i class="fab fa-phoenix-squadron font-xl"> </i>
-            <span class="text-uppercase d-flex"> &nbsp; pheonix</span></a>
+          <span class="text-uppercase d-flex"> &nbsp; pheonix</span></a>
           <p class="about-company__detail pr-1 prl-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.Saepe incidunt, officia tenetur sunt nesciunt eum
-            voluptatem, quibusdam non placeat praesentium ex laboriosam recusandae, explicabo odit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Saepe incidunt, officia tenetur sunt nesciunt eum voluptatem, quibusdam non placeat praesentium ex laboriosam recusandae, explicabo odit.
           </p>
         </div>
-        <div class="col-2 p-1">
-          <div class="col-title text-primary text-bold border-bottom pl-0">Categories</div>
-          <div class="d-flex">
-            <ul class="font-sm p-1 pl-0 p-y">
-              <li class="list-items"><a href="#">Cakes</a></li>
-              <li class="list-items"><a href="#">Hamburgers</a></li>
-              <li class="list-items"><a href="#">Pizas</a></li>
-              <li class="list-items"><a href="#">Sandwich</a></li>
-              <li class="list-items"><a href="#">Stakes</a></li>
-              <li class="list-items"><a href="#">Milk Shake</a></li>
-              <li class="list-items"><a href="#">Cheese burger</a></li>
-            </ul>
-            <ul class="font-sm p-1">
-              <li class="list-items"><a href="#">Cakes</a></li>
-              <li class="list-items"><a href="#">Hamburgers</a></li>
-              <li class="list-items"><a href="#">Pizas</a></li>
-              <li class="list-items"><a href="#">Sandwich</a></li>
-              <li class="list-items"><a href="#">Stakes</a></li>
-              <li class="list-items"><a href="#">Milk Shake</a></li>
-              <li class="list-items"><a href="#">Cheese burger</a></li>
-            </ul>
+        <div class="footer-col-3 d-flex">
+          <div class="col-2 p-1">
+              <div class="col-title text-primary text-bold border-primary pl-0 text-uppercase py-1">Categories</div>
+               <div class="d-flex justify-between">
+                 <ul class="font-sm p-1 pl-0 p-y">
+                   <li class="list-items"><a href="#">Cakes</a></li>
+                   <li class="list-items"><a href="#">Hamburgers</a></li>
+                   <li class="list-items"><a href="#">Pizas</a></li>
+                   <li class="list-items"><a href="#">Sandwich</a></li>
+                   <li class="list-items"><a href="#">Stakes</a></li>
+                   <li class="list-items"><a href="#">Milk Shake</a></li>
+                   <li class="list-items"><a href="#">Cheese burger</a></li>
+                 </ul>
+                 <ul class="font-sm p-1 p-y">
+                  <li class="list-items"><a href="#">Cakes</a></li>
+                  <li class="list-items"><a href="#">Hamburgers</a></li>
+                  <li class="list-items"><a href="#">Pizas</a></li>
+                  <li class="list-items"><a href="#">Sandwich</a></li>
+                  <li class="list-items"><a href="#">Stakes</a></li>
+                  <li class="list-items"><a href="#">Milk Shake</a></li>
+                  <li class="list-items"><a href="#">Cheese burger</a></li>
+                </ul>
+                <ul class="font-sm p-1 p-y">
+                  <li class="list-items"><a href="#">Cakes</a></li>
+                  <li class="list-items"><a href="#">Hamburgers</a></li>
+                  <li class="list-items"><a href="#">Pizas</a></li>
+                  <li class="list-items"><a href="#">Sandwich</a></li>
+                  <li class="list-items"><a href="#">Stakes</a></li>
+                  <li class="list-items"><a href="#">Milk Shake</a></li>
+                  <li class="list-items"><a href="#">Cheese burger</a></li>
+                </ul>
+               </div>
+  
           </div>
-
-        </div>
-        <div class="col-1 p-1">
-          <div class="col-title text-primary text-bold border-bottom pl-0">Navigation</div>
-          <ul class="font-sm p-1 pl-0 p-y">
-            <li class="list-items"><a href="#">Home</a></li>
-            <li class="list-items"><a href="#">Sign in</a></li>
-            <li class="list-items"><a href="#">Sign up</a></li>
-            <li class="list-items"><a href="#">Terms & Conditions</a></li>
-            <li class="list-items"><a href="#">FAQ</a></li>
-            <li class="list-items"><a href="#">Help</a></li>
-          </ul>
-        </div>
-        <div class="col-1 d-flex font-sm justify-evenly p-1">
-          <div class="d-flex flex-column justify-evenly">
-            <span class="text-uppercase text-primary text-bold">City</span>
-            <span class="text-uppercase text-primary text-bold mr-1">Language</span>
-            <span class="text-uppercase text-primary text-bold">Currency</span>
+          <div class="col-1 p-1 visible d-flex flex-column">
+              <div class="col-title text-primary text-bold border-primary  pl-0 text-uppercase py-1">Navigation</div>
+               <ul class="font-sm p-1 pl-0 p-y">
+                 <li class="list-items"><a href="#">Home</a></li>
+                 <li class="list-items"><a href="#">Sign in</a></li>
+                 <li class="list-items"><a href="#">Sign up</a></li>
+                 <li class="list-items"><a href="#">Terms & Conditions</a></li>
+                 <li class="list-items"><a href="#">FAQ</a></li>
+                 <li class="list-items"><a href="#">Help</a></li>
+               </ul>
           </div>
-          <div class="d-flex flex-column justify-evenly">
-            <button class=" btn btn-outline">Newyork</button>
-            <button class=" btn btn-outline pl-0">English</button>
-            <button class=" btn btn-outline">USD</button>
+          <div class="col-1 d-flex font-sm justify-evenly p-1 visible">
+              <div class="d-flex flex-column justify-evenly">
+                <span class="text-uppercase text-primary text-bold">City</span>
+                <span class="text-uppercase text-primary text-bold mr-1">Language</span>
+                <span class="text-uppercase text-primary text-bold">Currency</span>
+              </div>
+              <div class="d-flex flex-column justify-evenly">
+                <button class=" btn btn-outline">Newyork</button>
+                <button class=" btn btn-outline pl-0">English</button>
+                <button class=" btn btn-outline">USD</button>
+              </div>
+            
           </div>
-
         </div>
       </div>
 
       <div class="d-flex superlined flex-column pl-1">
-        <div class="copy-right text-secondary d-flex font-sm justify-between pl-1 pr-1">
-          <p>Copyirght&copy; 2015 Pheonix.com. All Rights Reserved.Designed by Mohammed Awad.</p>
-          <div class="social font-n">
+        <div class="copy-right text-secondary d-flex font-sm justify-between pl-1 pr-1 flex-column align-center">
+           <p class="copy-right__paragraph d-flex p-1"><span>Copyirght&copy; 2015 Pheonix.com.</span> <span>All Rights Reserved.Designed by Mohammed Award.</span></p>
+           <div class="social font-n p-1">
             <i class="fab fa-yahoo pr-1"></i>
             <i class="fab fa-google-plus-g pr-1"></i>
             <i class="fab fa-linkedin pr-1"></i>
@@ -432,15 +437,11 @@
           </div>
         </div>
 
-      </div>
-
-
+        </div>
+        
+     
 
     </footer>
-
-
-
-
 
 
   </div>
