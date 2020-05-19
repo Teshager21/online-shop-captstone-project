@@ -354,6 +354,7 @@ header {
 main {
   background-color: #f6f6f6;
   flex: 4;
+  margin-top: 2rem;
 }
 
 .card {
