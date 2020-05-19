@@ -56,6 +56,10 @@
   color: var(--color-secondary);
 }
 
+.text-dark {
+  color: var(--color-dark);
+}
+
 .text-bold {
   font-weight: bold;
 }
