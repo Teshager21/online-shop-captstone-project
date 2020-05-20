@@ -3,7 +3,7 @@ In this project, I demonstrated my ability  to build a web site from design. I m
 This fictitious company,[Pheonix](https://online-fast-food.netlify.app) ,is in a fast food company that delivers fast food at doorsteps from the nearby kitchens. The content of this website doesn't hold any factual relevance.
 
 ![screenshot](Assets/images/home-screenshot.PNG)
-    
+![screenshot](Assets/images/screenshot.png)  
 
 ## Built With
 
