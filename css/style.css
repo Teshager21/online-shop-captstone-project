@@ -328,7 +328,6 @@ nav a {
   border-bottom: var(--color-primary) 1px solid;
 }
 
-
 /* ------------------------utilities----------------------- */
 
 .visible {
@@ -496,8 +495,6 @@ main {
   margin: 0.5rem auto;
 }
 
-
-
 /* ----------------------------Footer--------------------------- */
 
 .copy-right {
@@ -575,7 +572,6 @@ aside {
   grid-auto-rows: 20rem;
 }
 
-
 /* -----------------------------Desktop--------------------------- */
 
 @media (min-width: 769px) {
@@ -610,6 +606,7 @@ aside {
   .copy-right {
     flex-direction: row;
   }
+
 
   .hot-ads {
     display: flex;
