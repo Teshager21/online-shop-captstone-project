@@ -410,7 +410,8 @@ header {
 }
 
 .hot-ads {
-  width: 72%;
+  max-width: 60em;
+  min-width: 35em;
   align-self: center;
   margin: 0 auto;
 }
@@ -423,6 +424,7 @@ header {
   position: relative;
   max-height: 10em;
   flex: 1;
+  max-width: 18rem;
 }
 
 .hot-ads__body {
