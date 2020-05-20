@@ -96,6 +96,7 @@ ul {
   width: 100%;
   justify-content: center;
   position: relative;
+  min-width: 320px;
 }
 
 .content {
@@ -429,7 +430,7 @@ header {
   position: relative;
   max-height: 10em;
   flex: 1;
-  max-width: 18rem;
+  max-width: 16rem;
 }
 
 .hot-ads__body {
