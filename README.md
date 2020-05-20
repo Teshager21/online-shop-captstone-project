@@ -1,5 +1,6 @@
-# online-shop 
-A demonstration of how to transform a design into a webpage
+#  Capstone Project - Pheonix Fast Food
+In this project, I demonstrated my ability  to build a web site from design. I made a fictitious company, and I used the layout color and topography dictated by adobe file of the [designer](https://www.behance.net/gallery/24796463/ZATTIX), 
+This fictitious company,[Pheonix](https://online-shop-by-teshager.netlify.app) is in a fast food company that delivers fast food at doorsteps from the nearby kitchens. The content of this website doesn't hold a factual data.
 
 ![screenshot](./)
     
@@ -14,7 +15,7 @@ A demonstration of how to transform a design into a webpage
 [Live Demo Link](https://online-shop-by-teshager.netlify.app)
 ## Milestone
 
-  To match with the original click [here]()
+  To match with the original click [here](https://www.behance.net/gallery/24796463/ZATTIX)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -24,7 +25,7 @@ To get a local copy up and running follow these simple example steps.
     1. Click on the install or download button under the repository name and grab the url
     by clicking on the clipboard icon
 
-![Step-1](./Assets/howtoinstall.png)
+![Step-1](Assets/images/howtoinstall.png)
 
     2.open your terminal
 
@@ -60,11 +61,19 @@ To get a local copy up and running follow these simple example steps.
 
     Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Teshager21/using-bootstrap/issues).
+Feel free to check the [issues page](https://github.com/Teshager21/online-shop-capstone/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Design concepts was inspired by [Mohammed Awad and others on Behance](https://www.behance.net/gallery/24796463/ZATTIX)
+- Images gotten from [pexels.com](https://www.pexels.com/)
+- Icons from [font awesome](https://fontawesome.com/)
+
+
 ## 📝 License
 This project is [MIT](lic.url) licensed.
+

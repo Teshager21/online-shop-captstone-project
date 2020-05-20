@@ -431,7 +431,7 @@ main {
   content: " ";
   height: 1.5px;
   width: 100%;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   background-color: #ececec;
 }
 
@@ -459,7 +459,7 @@ main {
 }
 
 .copy-right {
-  height: 2rem;
+  height: 1rem;
   white-space: nowrap;
   align-items: flex-start;
 }
