@@ -92,6 +92,10 @@
   justify-content: center;
 }
 
+.flex-start {
+  align-items: flex-start;
+}
+
 a {
   text-decoration: none;
   color: var(--color-secondary);

@@ -16,7 +16,7 @@
         <ul class="nav-items d-flex align-center">
           <li><a href="./index.html" class="logo d-flex">
               <i class="fab fa-phoenix-squadron font-n text-primary"> </i>
-            <span class="text-uppercase d-flex align-center"> &nbsp; pheonix</span></a>
+            <span class="text-uppercase d-flex align-center text-light"> &nbsp; pheonix</span></a>
           </li>
           <li><a href="./index.html" class="active d-flex"><i class="fas fa-home pr-1"></i><span class="visible">Home </span></a>
 
@@ -49,29 +49,31 @@
       </div>
 
     </nav>
-    <header class="d-flex flex-column justify-evenly align-center mobile-hide">
-      <div class="header__brand text-light d-flex flex-column align-center">
-        <h1 class="header__title text-uppercase font-xl">
-          pheonix
-        </h1>
-        <div class="moto ">Buying and Selling Couldn't be Simpler than this!</div>
+    <header class="d-flex flex-column justify-evenly mobile-hide p-1">
+      <div class="d-flex flex-column flex-center p-1 mr-1">
+        <div class="header__brand text-light d-flex flex-column ">
+          <h1 class="header__title text-uppercase font-xl">
+            pheonix
+          </h1>
+          <div class="moto ">Search around 124,000 dishes waiting just for you!</div>
+        </div>
+        <form class="search-block d-flex ">
+          <div class="input-group d-flex font-sm text-secondary">
+            <div class="input d-flex font-sm align-center">
+              <input class="input-area " placeholder="All Departements" >
+              <i class="fas fa-caret-down"></i>
+            </div>
+            <div class="input d-flex align-center">
+              <input class="input-area" placeholder="What do yout search for?">
+            </div>
+            <div class="input d-flex align-center">
+              <input class="input-area" placeholder="Where are you at ?">
+            </div>
+            <div class="d-flex">
+              <a href="./search.html" class="btn btn-dark btn-search font-sm d-flex align-center">Search</a></div>
+            </div>
+        </form>
       </div>
-      <form class="search-block d-flex p-1">
-        <div class="input-group d-flex font-sm text-secondary">
-          <div class="input d-flex font-sm align-center">
-            <input class="input-area " placeholder="All Departements" >
-            <i class="fas fa-caret-down"></i>
-          </div>
-          <div class="input d-flex align-center">
-            <input class="input-area" placeholder="What do yout search for?">
-          </div>
-          <div class="input d-flex align-center">
-            <input class="input-area" placeholder="Where are you at ?">
-          </div>
-          <div class="d-flex">
-            <a href="./search.html" class="btn btn-dark btn-search font-sm d-flex align-center">Search</a></div>
-          </div>
-      </form>
 
       <div class="background">
         <i class="fab fa-phoenix-squadron"></i>
@@ -88,7 +90,7 @@
           </div>
           <div class="carnivores d-flex">
             <input type="checkbox" class="checkbox">
-            <span class="d-flex align-center">Meat_Eaters</span>
+            <span class="d-flex align-center">NonVegan</span>
           </div>
         </div>
 
@@ -160,7 +162,7 @@
       <main class="border d-flex">
 
         <div class="hot-ads__content d-flex flex-column">
-          <div class="hot-ads__title p-y text-bold text-secondary border p-1">138 Results for "Tacos" Search at San Fransisco in Category Burgers</div>
+          <div class="hot-ads__title p-y text-bold text-secondary border p-1 font-sm">138 Results for "Tacos" Search at San Fransisco in Category Burgers</div>
           <div class="result p-1 border text-secondary my-1">
             <div class="ad d-flex ">
               <div class="hot-ads__img">
