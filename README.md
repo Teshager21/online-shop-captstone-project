@@ -1,8 +1,8 @@
 #  Capstone Project - Pheonix Fast Food
 In this project, I demonstrated my ability  to build a web site from design. I made a fictitious company, and I used the layout color and topography dictated by adobe file of the [designer](https://www.behance.net/gallery/24796463/ZATTIX), 
-This fictitious company,[Pheonix](https://online-shop-by-teshager.netlify.app) is in a fast food company that delivers fast food at doorsteps from the nearby kitchens. The content of this website doesn't hold a factual data.
+This fictitious company,[Pheonix](https://online-fast-food.netlify.app) is in a fast food company that delivers fast food at doorsteps from the nearby kitchens. The content of this website doesn't hold a factual data.
 
-![screenshot](./)
+![screenshot](Assets/images/home-screenshot.PNG)
     
 
 ## Built With
@@ -12,7 +12,7 @@ This fictitious company,[Pheonix](https://online-shop-by-teshager.netlify.app) i
 
 ## Live Demo
 
-[Live Demo Link](https://online-shop-by-teshager.netlify.app)
+[Live Demo Link](https://online-fast-food.netlify.app)
 ## Milestone
 
   To match with the original click [here](https://www.behance.net/gallery/24796463/ZATTIX)
