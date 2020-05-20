@@ -78,6 +78,11 @@ a {
   color: var(--color-secondary);
 }
 
+a :hover {
+  transform: scale(1.2);
+  transition: all ease-in-out;
+}
+
 body {
   font-family: var(--helvetica-light);
   box-sizing: border-box;
@@ -410,7 +415,7 @@ header {
 }
 
 .hot-ads {
-  max-width: 60em;
+  max-width: 50em;
   min-width: 35em;
   align-self: center;
   margin: 0 auto;
