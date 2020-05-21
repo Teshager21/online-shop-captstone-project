@@ -227,6 +227,8 @@ nav a {
 
 .card {
   display: flex;
+  display: -ms-flexbox;
+  display: -ms-flexbox;
   flex-direction: column;
   border: 1px #e3e3e3 solid;
   min-width: 0;
@@ -236,6 +238,7 @@ nav a {
 .card__info {
   flex: 1;
   display: flex;
+  display: -ms-flexbox;
   padding: 3%;
   background-color: #f8f9fd;
   flex-direction: column;
@@ -250,6 +253,7 @@ nav a {
 
 .card__detail {
   display: flex;
+  display: -ms-flexbox;
   justify-content: space-between;
 }
 
@@ -261,6 +265,7 @@ nav a {
 
 .card__price {
   display: flex;
+  display: -ms-flexbox;
   align-items: center;
 }
 
@@ -281,6 +286,7 @@ nav a {
 
 .d-flex {
   display: flex;
+  display: -ms-flexbox;
 }
 
 .flex-column {
@@ -585,6 +591,7 @@ aside {
 @media (min-width: 769px) {
   .visible {
     display: flex;
+    display: -ms-flexbox;
   }
 
   .footer-top {
@@ -598,6 +605,7 @@ aside {
 @media (min-width: 567px) {
   .mobile-hide {
     display: flex;
+    display: -ms-flexbox;
   }
 
   nav {
@@ -618,6 +626,7 @@ aside {
 
   .hot-ads {
     display: flex;
+    display: -ms-flexbox;
   }
 
   .hidden {
