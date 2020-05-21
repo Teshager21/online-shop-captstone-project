@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/meyer_css_reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>PHEONIX</title>
+</head>
+
+<body>
+  <div class="container d-flex flex-column">
+    <nav>
+      <div class="nav-container d-flex font-sm text-uppercase justify-between align-center">
+        <ul class="nav-items d-flex align-center">
+          <li><a href="./index.html" class="logo d-flex">
+              <i class="fab fa-phoenix-squadron font-n text-primary"> </i>
+            <span class="text-uppercase d-flex align-center text-light"> &nbsp; pheonix</span></a>
+          </li>
+          <li><a href="./index.html" class="active d-flex"><i class="fas fa-home pr-1"></i><span class="visible">Home </span></a>
+
+          </li>
+          <li><a href="#" class="d-flex"><i class="fas fa-dice-four pr-1"></i><span class="visible">Collections</span></a></li>
+          <li><a href="#" class="d-flex"><i class="fas fa-shopping-cart pr-1"></i><span class="visible">Purchase List</span></a></li>
+          <li><a href="#" class="btn btn-primary visible">Post and ad</a></li>
+
+        </ul>
+        <div><a href="search.html" class="btn btn-primary hidden">Search</a></div>
+        <div class="current-user d-flex pr-1 justify-between align-center visible">
+          <div class="d-flex">
+            <div class="inbox">
+              <a href="#"> <i class="fas fa-envelope "></i></a>
+              <div class="inbox-num"></div>
+            </div>
+            <div class="user__name">
+              <a href="#"> John Doe</a>
+            </div>
+           
+            
+          </div>
+          <div class="user__picture">
+            <a href="#"><img class="img-fluid"
+                src="https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="#"></a>
+          </div>
+        </div>
+       
+      </div>
+
+    </nav>
+    <header class="d-flex flex-column justify-evenly mobile-hide p-1">
+      <div class="d-flex flex-column flex-center p-1 mr-1">
+        <div class="header__brand text-light d-flex flex-column ">
+          <h1 class="header__title text-uppercase font-xl">
+          <a href="index.html" class="text-light">  pheonix</a>
+          </h1>
+          <div class="moto p-y">Search around 124,000 dishes waiting just for you!</div>
+        </div>
+        <form class="search-block d-flex ">
+          <div class="input-group d-flex font-sm text-secondary">
+            <div class="input d-flex font-sm align-center">
+              <input class="input-area " placeholder="All Departements" >
+              <a href="#"><i class="fas fa-caret-down"></i></a>
+            </div>
+            <div class="input d-flex align-center">
+              <input class="input-area" placeholder="What do yout search for?">
+            </div>
+            <div class="input d-flex align-center">
+              <input class="input-area" placeholder="Where are you at ?">
+            </div>
+            <div class="d-flex">
+              <a href="./search.html" class="btn btn-dark btn-search font-sm d-flex align-center">Search</a></div>
+            </div>
+        </form>
+      </div>
+
+      <div class="background">
+        <i class="fab fa-phoenix-squadron"></i>
+      </div>
+
+    </header>
+
+    <div class="search-result d-flex mr-1 pr-1 ">
+
+      <aside class="text-secondary visible flex-column">
+        <div class="major d-flex font-sm">
+          <div class="vegitarian d-flex">
+            <input type="checkbox" class="checkbox"><span class="d-flex align-center pr-1">Vegetarian</span>
+          </div>
+          <div class="carnivores d-flex">
+            <input type="checkbox" class="checkbox">
+            <span class="d-flex align-center">NonVegan</span>
+          </div>
+        </div>
+
+        <div class="by-type d-flex flex-column p-y ">
+          <div class="title text-bold border-bottom border-bottom my-1">Type</div>
+          <ul class="p-y font-sm">
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">Entire Place</span>
+            </li>
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">Private Room</span>
+            </li>
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">Shared Room</span>
+            </li>
+
+
+          </ul>
+
+
+        </div>
+        <div class="by-type">
+          <div class="title text-bold border-bottom my-1">Price Range</div>
+          <ul class="p-y font-sm">
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">1$ - 10$</span>
+            </li>
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">10$ - 50$</span>
+            </li>
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">50$ - 100$</span>
+            </li>
+
+
+          </ul>
+
+
+        </div>
+        <div class="by-size">
+          <div class="title text-bold border-bottom my-1">Size</div>
+          <ul class="p-y font-sm">
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">2-4 Rooms</span>
+            </li>
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">5+ Rooms</span>
+            </li>
+            <li class="items d-flex align-center">
+              <input type="checkbox" class="checkbox">
+              <span class="item-name">Custom</span>
+            </li>
+          </ul>
+
+
+        </div>
+
+
+
+      </aside>
+      <main class="border d-flex">
+
+        <div class="hot-ads__content d-flex flex-column">
+          <div class="hot-ads__title p-y text-bold text-secondary border p-1 font-sm">138 Results for "Tacos" Search at San Fransisco in Category Burgers</div>
+          <div class="result p-1 border text-secondary my-1">
+            <div class="ad d-flex ">
+              <div class="hot-ads__img">
+                <img class="img-fluid"
+                  src="https://t3.ftcdn.net/jpg/02/23/48/70/240_F_223487097_EKQSHGJIkXXhaLNbiHEsmxkWMpbtXQOc.jpg"
+                  alt="#">
+                <div class="slider-carets d-flex">
+                  <a href="#" class="text-primary"><i class="fas fa-angle-left"></i></a>
+                  <a href="#" class="text-primary"><i class="fas fa-angle-right"></i></a>
+                </div>
+              </div>
+              <div class="hot-ads__body d-flex flex-column justify-between col-2">
+                <div class="d-flex justify-between align-center">
+                  <h2 class="hot-ads__header text-secondary"> Burrito with grilled chicken and vegetables</h2>
+                  <div class="card__cta">
+                    <a href="#"><i class="fas fa-plus text-dark"></i></a>
+                  </div>
+                </div>
+                <p class="text-primary text-bold">200M, Non-Vegan</p>
+                <p class="hot-ads__details font-sm p-y">
+                  Ingredients. 4 skinless, boneless free-range chicken thighs. <span class="mobile-hide">1 tablespoon sweet smoked paprika. ½ a tablespoon ground cumin. 2 cloves of garlic. 1 bunch of fresh coriander. 1 x 400 g tin of pinto or black beans. 200 g leftover white or brown rice , chilled. 1 lime. </span>
+                </p>
+                <div class="location p-y ">
+                  <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
+                </div>
+                <div class="d-flex justify-between">
+                  <div class="date">23 Nov, 2020</div>
+                  <a href="#" class="btn btn-primary font-n">
+                    1.5$
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="result p-1 border text-secondary my-1 bg-light">
+            <div class="ad d-flex ">
+              <div class="hot-ads__img">
+                <img class="img-fluid"
+                  src="https://t3.ftcdn.net/jpg/01/18/42/80/240_F_118428025_0NUEZHHJg03lYszTRaWZr75dZmsZSheI.jpg"
+                  alt="#">
+                <div class="slider-carets d-flex">
+                  <a href="#" class="text-primary"><i class="fas fa-angle-left"></i></a>
+                  <a href="#" class="text-primary"><i class="fas fa-angle-right"></i></a>
+                </div>
+              </div>
+              <div class="hot-ads__body d-flex flex-column justify-between col-2">
+                <div class="d-flex justify-between align-center">
+                  <h2 class="hot-ads__header text-secondary"> Burrito with grilled chicken and vegetables</h2>
+                  <div class="card__cta">
+                   <a href="#"> <i class="fas fa-plus text-dark"></i></a>
+                  </div>
+                </div>
+                <p class="text-primary text-bold">200M, Non-Vegan</p>
+                <p class="hot-ads__details font-sm p-y ">
+                  Flour tortillas, meat and beans or refried beans <span class="mobile-hide">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.   Asperiores ratione tempora animi ut ipsam
+                    nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
+                    recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                </p>
+                <div class="location p-y ">
+                  <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
+                </div>
+                <div class="d-flex justify-between">
+                  <div class="date">23 Nov, 2020</div>
+                  <div class="d-flex">
+                    <a href="#" class="btn btn-primary font-n mr-1 visible">Give a Call
+                    </a>
+
+                    <a href="#" class="btn btn-primary font-n mr-1 hidden">
+                      <i class="fas fa-phone"></i>
+                      </a>
+
+
+
+                    <a href="#" class="btn btn-primary font-n">
+                      1.5$
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="result p-1 border text-secondary my-1">
+            <div class="ad d-flex ">
+              <div class="hot-ads__img">
+                <img class="img-fluid"
+                  src="https://t4.ftcdn.net/jpg/01/18/51/87/240_F_118518711_rQIGTiJ8vKs84wG7Kd7YAaHUkQHXpHOW.jpg"
+                  alt="#">
+                <div class="slider-carets d-flex">
+                  <a href="#" class="text-primary"><i class="fas fa-angle-left"></i></a>
+                  <a href="#" class="text-primary"><i class="fas fa-angle-right"></i></a>
+                </div>
+              </div>
+              <div class="hot-ads__body d-flex flex-column justify-between col-2">
+                <div class="d-flex justify-between align-center">
+                  <h2 class="hot-ads__header text-secondary"> Burrito with grilled chicken and vegetables (fajitas, pita bread</h2>
+                  <div class="card__cta">
+                    <a href="#"><i class="fas fa-plus text-dark"></i></a>
+                  </div>
+                </div>
+                <p class="text-primary text-bold">200M, Non-Vegan</p>
+                <p class="hot-ads__details font-sm p-y ">
+                  Cheese, rice, lettuce, guacamole, salsa, sour cream<span class="mobile-hide">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.   Asperiores ratione tempora animi ut ipsam
+                    nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
+                    recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                </p>
+                <div class="location p-y ">
+                  <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
+                </div>
+                <div class="d-flex justify-between">
+                  <div class="date">23 Nov, 2020</div>
+                  <a href="#" class="btn btn-primary font-n">
+                    1.5$
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="result p-1 border text-secondary my-1">
+            <div class="ad d-flex ">
+              <div class="hot-ads__img">
+                <img class="img-fluid"
+                  src="https://t4.ftcdn.net/jpg/00/75/69/37/240_F_75693747_bWm1JNyb6bHAUzkXtF7JWgb5ONSndwe5.jpg"
+                  alt="#">
+                <div class="slider-carets d-flex">
+                  <a href="#" class="text-primary"><i class="fas fa-angle-left"></i></a>
+                  <a href="#" class="text-primary"><i class="fas fa-angle-right"></i></a>
+                </div>
+              </div>
+              <div class="hot-ads__body d-flex flex-column justify-between col-2">
+                <div class="d-flex justify-between align-center">
+                  <h2 class="hot-ads__header text-secondary"> Guacamole nachos and guacamole ingredients isolated on white background</h2>
+                  <div class="card__cta">
+                    <a href="#"><i class="fas fa-plus text-dark"></i></a>
+                  </div>
+                </div>
+                <p class="text-primary text-bold">200M, Non-Vegan</p>
+                <p class="hot-ads__details font-sm p-y ">
+                  Cheese, rice, lettuce, guacamole, salsa, sour cream<span class="mobile-hide">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.   Asperiores ratione tempora animi ut ipsam
+                    nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
+                    recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </p>
+                <div class="location p-y ">
+                  <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
+                </div>
+                <div class="d-flex justify-between">
+                  <div class="date">23 Nov, 2020</div>
+                  <a href="#" class="btn btn-primary font-n">
+                    1.5$
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="result p-1 border text-secondary my-1">
+            <div class="ad d-flex ">
+              <div class="hot-ads__img">
+                <img class="img-fluid"
+                  src="https://t4.ftcdn.net/jpg/01/81/88/29/240_F_181882905_ZdrqC0VS3M1VMMajRnQodaQPNP7Y6IWW.jpg"
+                  alt="#">
+                <div class="slider-carets d-flex">
+                   <a href="#" class="text-primary"><i class="fas fa-angle-left"></i></a>
+                  <a href="#" class="text-primary"><i class="fas fa-angle-right"></i></a>
+                </div>
+              </div>
+              <div class="hot-ads__body d-flex flex-column justify-between col-2">
+                <div class="d-flex justify-between align-center">
+                  <h2 class="hot-ads__header text-secondary"> Guacamole nachos and guacamole ingredients isolated on white background</h2>
+                  <div class="card__cta">
+                    <a href="#"><i class="fas fa-plus text-dark"></i></a>
+                  </div>
+                </div>
+                <p class="text-primary text-bold">200M, Non-Vegan</p>
+                <p class="hot-ads__details font-sm p-y ">
+                  Flour tortillas, meat and beans or refried beans<span class="mobile-hide">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.   Asperiores ratione tempora animi ut ipsam
+                    nesciunt culpa nihil velit totam aspernatur? Nam explicabo neque expedita obcaecati maiores quae alias
+                    recusandae? Ea?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+                </p>
+                <div class="location p-y ">
+                  <strong class="text-bold">Location: </strong><span>Start Street , San Fransisco US</span>
+                </div>
+                <div class="d-flex justify-between">
+                  <div class="date">23 Nov, 2020</div>
+                  <a href="#" class="btn btn-primary font-n">
+                    1.5$
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </main>
+
+
+    </div>
+
+
+    <footer>
+      <div class="footer-top d-flex text-secondary flex-column">
+        <div class="about-company footer-col-3 d-flex flex-column p-1">
+          <div class="d-flex ">
+            <a href="#" class="logo d-flex p-1 align-center">
+              <i class="fab fa-phoenix-squadron font-xl"> </i>
+            <span class="text-uppercase d-flex font-xl">pheonix</span></a>
+          </div>
+          <p class="about-company__detail pr-1 prl-1 font-sm">
+            We strive to increase customer satisfaction and loyalty by providing the fastest and most accurate service, the freshest products. We accomplish this through teamwork, communication, honesty, fun and sharing experiences as we all grow together.
+          </p>
+        </div>
+        <div class="footer-col-3 d-flex">
+          <div class="col-2 p-1">
+              <div class="col-title text-primary text-bold border-primary pl-0 text-uppercase py-1">Categories</div>
+               <div class="d-flex justify-between">
+                 <ul class="font-sm p-1 pl-0 p-y">
+                   <li class="list-items"><a href="#">Cakes</a></li>
+                   <li class="list-items"><a href="#">Hamburgers</a></li>
+                   <li class="list-items"><a href="#">Pizas</a></li>
+                   <li class="list-items"><a href="#">Sandwich</a></li>
+                   <li class="list-items"><a href="#">Stakes</a></li>
+                   <li class="list-items"><a href="#">Milk Shake</a></li>
+                   <li class="list-items"><a href="#">Cheese burger</a></li>
+                 </ul>
+                 <ul class="font-sm p-1 p-y">
+                  <li class="list-items"><a href="#">Tacos</a></li>
+                  <li class="list-items"><a href="#">Hamburgers</a></li>
+                  <li class="list-items"><a href="#">Pizas</a></li>
+                  <li class="list-items"><a href="#">Sandwich</a></li>
+                  <li class="list-items"><a href="#">Stakes</a></li>
+                  <li class="list-items"><a href="#">Milk Shake</a></li>
+                  <li class="list-items"><a href="#">Cheese burger</a></li>
+                </ul>
+                <ul class="font-sm p-1 p-y">
+                  <li class="list-items"><a href="#">Cakes</a></li>
+                  <li class="list-items"><a href="#">Hamburgers</a></li>
+                  <li class="list-items"><a href="#">Pizas</a></li>
+                  <li class="list-items"><a href="#">Sandwich</a></li>
+                  <li class="list-items"><a href="#">Stakes</a></li>
+                  <li class="list-items"><a href="#">Milk Shake</a></li>
+                  <li class="list-items"><a href="#">Cheese burger</a></li>
+                </ul>
+               </div>
+  
+          </div>
+          <div class="col-1 p-1 visible d-flex flex-column">
+              <div class="col-title text-primary text-bold border-primary  pl-0 text-uppercase py-1">Navigation</div>
+               <ul class="font-sm p-1 pl-0 p-y">
+                 <li class="list-items"><a href="#">Home</a></li>
+                 <li class="list-items"><a href="#">Sign in</a></li>
+                 <li class="list-items"><a href="#">Sign up</a></li>
+                 <li class="list-items"><a href="#">Terms&Conditions</a></li>
+                 <li class="list-items"><a href="#">FAQ</a></li>
+                 <li class="list-items"><a href="#">Help</a></li>
+               </ul>
+          </div>
+          <div class="col-1 d-flex font-sm justify-evenly p-1 visible">
+              <div class="d-flex flex-column justify-evenly">
+                <span class="text-uppercase text-primary text-bold">City</span>
+                <span class="text-uppercase text-primary text-bold mr-1">Language</span>
+                <span class="text-uppercase text-primary text-bold">Currency</span>
+              </div>
+              <div class="d-flex flex-column justify-evenly">
+                <a href="#" class=" btn btn-outline">Newyork</a>
+                <a href="#" class=" btn btn-outline pl-0">English</a>
+                <a href="#" class=" btn btn-outline">USD</a>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex superlined flex-column pl-1">
+        <div class="copy-right text-secondary d-flex font-sm justify-between pl-1 pr-1 flex-column align-center">
+           <p class="copy-right__paragraph d-flex p-y"><span>Copyirght&copy; 2015 Pheonix.com.</span> <span>All Rights Reserved.Designed by Mohammed Award.</span></p>
+           <div class="social font-n p-y">
+            <a href="#"><i class="fab fa-yahoo pr-1"></i></a>
+           <a href="#"> <i class="fab fa-google-plus-g pr-1"></i></a>
+            <a href="#"><i class="fab fa-linkedin pr-1"></i></a>
+           <a href="#"> <i class="fab fa-twitter pr-1"></i></a>
+            <a href="#"><i class="fab fa-facebook-f pr-1"></i></a>
+          </div>
+        </div>
+
+        </div>
+        
+     
+
+    </footer>
+
+
+  </div>
+  <script src="js/all.min.js"></script>
+</body>
+
+</html>
